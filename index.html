@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/menu.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Leonardo Capoccia</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link">So Far</a>
+                    </li>
+                    <li class="nav-item"><a routerLink="/academic_background" routerLinkActive="active"
+                            class="nav-link">Academic Background</a>
+                    </li>
+                    <li class="nav-item"><a routerLink="/professional_background" routerLinkActive="active"
+                            class="nav-link">Professional
+                            Background</a></li>
+                    <li class="nav-item"><a routerLink="/certifications" routerLinkActive="active"
+                            class="nav-link">Certifications and
+                            Courses</a></li>
+                    <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link">Soft
+                            Skills</a></li>
+                    <li class="nav-item"><a routerLink="/languages" routerLinkActive="active"
+                            class="nav-link">Languages</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./assets/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link">So Far</a></li>
+                <li class="nav-item"><a routerLink="/academic_background" routerLinkActive="active"
+                        class="nav-link">Academic Background</a></li>
+                <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link">Professional
+                        Background</a>
+                </li>
+                <li class="nav-item"><a routerLink="/certifications" routerLinkActive="active"
+                        class="nav-link">Certifications and
+                        Courses</a></li>
+                <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link">Soft Skills</a>
+                </li>
+                <li class="nav-item"><a routerLink="/languages" routerLinkActive="active" class="nav-link">Languages</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <section class="about">
+        <div class="main">
+            <img class="image"
+                src="https://media.licdn.com/dms/image/C4D03AQFKrri4XAbxPA/profile-displayphoto-shrink_800_800/0/1646619964685?e=1709769600&v=beta&t=V0aYDji6-aeqOl8dohQVtZM9GyCvGK4Qycq5NrLw_-0"
+                alt="">
+
+            <div class="about-text">
+                <h2 class="thin">I'm</h2>
+                <h2> Leonardo Capoccia</h2>
+                <h5>Software Developer</h5>
+                <hr>
+                <ul class="list-group">
+                    <li>
+                        <h5>AGE</h5>
+                        <span class="badge">23</span>
+                    </li>
+                    <li>
+                        <h5>ADDRESS</h5>
+                        <span class="badge">151 Valentim Bitolo St,<br>São Bernardo do Campo, SP - Brazil</span>
+                    </li>
+                    <li>
+                        <h5>E-MAIL</h5>
+                        <span class="badge">leonardo.gomiero.c.c&#64;gmail.com</span>
+                    </li>
+                    <li>
+                        <h5>PHONE</h5>
+                        <span class="badge">+55 11 98336-7853</span>
+                    </li>
+                    <li>
+                        <h5>GITHUB</h5>
+                        <span class="badge">leonardo-gomiero</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="under-text">
+            <ul class="socials">
+                <li><a href="https://github.com/Leonardo-Gomiero" target="_blank"><fa-icon
+                            [icon]="github"></fa-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-gomiero/" target="_blank"><fa-icon
+                            [icon]="linkedin"></fa-icon></a></li>
+                <li><a href="https://wa.me/5511983367853" target="_blank"><fa-icon [icon]="whatsapp"></fa-icon></a></li>
+                <li><a href="mailto:leonardo.gomiero.c.c@gmail.com" target="_blank"><fa-icon
+                            [icon]="email"></fa-icon></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="download-cv">
+
+        <button class="button-18" role="button"><a href="./assets/Curriculo - Leonardo Gomiero C Capoccia.pdf"
+                download>Download CV</a></button>
+
+    </section>
+
+    <section class="introduction">
+        <h2>Hello! My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field
+            for two
+            years, gaining experience in various companies where I could enhance my technical skills in JavaScript,
+            HTML, CSS,
+            SQL, and more. In my role, I've learned to translate client needs into software solutions, focusing on
+            periodic
+            feedback and paying close attention to detail.</h2>
+    </section>
+
+    <section class="skills-bars">
+        <h1>Professional Skills</h1>
+        <div class="skills">
+
+
+            <div class="left">
+                <ul>
+                    <li>
+                        <h3>html</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3>css</h3>
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h3>JavaScript</h3>
+                        <span class="bar"><span class="js"></span></span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li>
+                        <h3>Java</h3>
+                        <span class="bar"><span class="java"></span></span>
+                    </li>
+                    <li>
+                        <h3>AWS</h3>
+                        <span class="bar"><span class="aws"></span></span>
+                    </li>
+                    <li>
+                        <h3>Data Analysis</h3>
+                        <span class="bar"><span class="data-an"></span></span>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div class="container">
+        <main class="row">
+
+            <section class="col">
+
+
+                <header class="title">
+                    <h2>EDUCATION</h2>
+                </header>
+
+                <div class="contents">
+
+                    <div class="box">
+                        <h4>2023 - 2028</h4>
+                        <h3>Bachelor's Degree in Computer Engineering</h3>
+                        <p>UNIVESP</p>
+                    </div>
+
+                    <div class="box">
+                        <h4>2022 - 2023</h4>
+                        <h3>Associate Degree in System Analysis and Development</h3>
+                        <p>SENAI</p>
+                    </div>
+
+                    <div class="box">
+                        <h4>2019 - 2021</h4>
+                        <h3>Technical Degree in Mechatronics</h3>
+                        <p>SENAI</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="col">
+
+
+                <header class="title">
+                    <h2>EXPERIENCE</h2>
+                </header>
+
+                <div class="contents">
+
+                    <div class="box">
+                        <h4>2021 - 2022</h4>
+                        <h3>Software Developer</h3>
+                        <h5>Microblau</h5>
+                        <p>The professional excels in Java development with a focus on Object-Oriented Programming, PLC
+                            programming
+                            using the Ladder language for industrial automation, and practical experience in device
+                            integration through
+                            protocols like Modbus and TCP/IP. They contribute to creating intuitive Human-Machine
+                            Interfaces (HMIs) for
+                            industrial processes.<br><br>Additionally, they apply Agile Methodology, actively
+                            participate in Lean
+                            Six-Sigma projects, and possess expertise in configuring supervisory systems for monitoring
+                            and controlling industrial processes.
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <h4>2022</h4>
+                        <h3>Controls Engineering Analyst</h3>
+                        <h5>Comau</h5>
+                        <p>I actively developed tools in C# to optimize processes and foster innovation in Control
+                            Engineering. I
+                            played a key role in Virtual Commissioning, contributing to system simulation and
+                            validation. In Integration
+                            and Automation Projects, I collaborated on development and problem resolution, ensuring
+                            seamless system
+                            integration. Effective communication with clients and suppliers was crucial in understanding
+                            and delivering
+                            tailored solutions.<br><br>Additionally, I used VBA to create Excel Macros, automating tasks
+                            for improved
+                            data
+                            analysis. These experiences fueled my professional growth and enhanced my ability to provide
+                            efficient
+                            solutions to team and project challenges.</p>
+                    </div>
+
+                    <div class="box">
+                        <h4>2023 - now</h4>
+                        <h3>Digital Transformation Analyst</h3>
+                        <h5>Bayer</h5>
+                        <p>I actively develop software using JavaScript, support the Digital IT Leader in promoting
+                            data-driven
+                            solutions, and collaborate with global teams on data and analytics. My role includes
+                            inclusive change
+                            management, monitoring regional data projects, and contributing to the data demand
+                            collection process in
+                            Latin America. I possess competencies in AngularJS, JavaScript, Python, SQL, and Scrum
+                            methodologies.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <section class="introduction">
+        <h1>Text Section</h1>
+        <div class="text-section">
+            <p>My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in JavaScript, HTML, CSS, SQL, and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Software Developer</h3>
+            <p>My passion transfigured into code.</p>
+            <ul class="socials">
+                <li><a href="https://github.com/Leonardo-Gomiero" target="_blank"><fa-icon
+                            [icon]="github"></fa-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-gomiero/" target="_blank"><fa-icon
+                            [icon]="linkedin"></fa-icon></a></li>
+                <li><a href="https://wa.me/5511983367853" target="_blank"><fa-icon [icon]="whatsapp"></fa-icon></a></li>
+                <li><a href="mailto:leonardo.gomiero.c.c@gmail.com" target="_blank"><fa-icon
+                            [icon]="email"></fa-icon></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2024. designed by <span>Leonardo Capoccia</span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
