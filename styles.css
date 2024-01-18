@@ -17,10 +17,12 @@ h1 {
   text-align: center;
   color: #fff;
   margin-bottom: 0;
+  width: 100%;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 section.introduction {
@@ -38,14 +40,10 @@ section.about {
 
 section.skills-bars {
   margin: 7vh auto 7vh auto;
-  width: 100vh;
+  width: 100%;
   align-items: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
 
 .about img {
   width: 35vh;
@@ -72,6 +70,19 @@ ul {
   align-items: center;
   justify-content: space-around;
   padding: 3vh;
+}
+
+.image-small {
+  width: 5%;
+}
+
+.title-lang {
+  display: flex;
+  align-items: center;
+}
+
+.title-lang h3 {
+  padding-left: 2vh;
 }
 
 .about-text h2 {
@@ -263,6 +274,21 @@ a {
 }
 
 .data-an {
+  width: 70%;
+  animation: html 3s;
+}
+
+.english {
+  width: 100%;
+  animation: html 3s;
+}
+
+.spanish {
+  width: 50%;
+  animation: html 3s;
+}
+
+.italian {
   width: 70%;
   animation: html 3s;
 }
@@ -503,11 +529,24 @@ main.row {
   text-align: justify;
 }
 
+#lang ul li i {
+  display: inline-block;
+}
 
-@media screen and (max-width: 730px) {
+#lang ul li h3 {
+  display: inline-block;
+}
+
+
+@media (max-width: 730px) {
   
   .introduction h2 {
     font-size: 2.4vh;
+    width: 100%;
+  }
+  
+  .image-small {
+    width: 15%;
   }
   
   .nav-bar {
@@ -576,6 +615,15 @@ main.row {
 
   .skills {
     flex-direction: column;
+    width: 50%;
+    margin: 0 25% 0 25%;
+
+  }
+
+  .skills-bars {
+    align-items: center;
+    text-align: center;
+    margin: 0;
   }
 
   .right {
@@ -591,11 +639,12 @@ main.row {
   }
 
   .row .col:nth-child(2){
-    margin-top: 3vh;
+    margin-top: 30%;
   }
 
   section.introduction {
     width: 90%;
     margin: 5%;
   }
+
 }
