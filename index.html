@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/testimonials.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -430,7 +431,31 @@
                 </div>
                 <div class="swiper-pagination js-testimonials-pagination"></div>
             </div>
-            
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-items">
+
+
+            <div class="left block">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" rows="4" placeholder="Message" required></textarea>
+                    <button type="submit" class="button-18" id="form-button" role="button">Send</button>
+                </form>
+            </div>
+
+            <div class="right block">
+
+
+            </div>
+
+
         </div>
     </section>
 
@@ -453,6 +478,25 @@
         </div>
     </footer>
 
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+        function sendEmail() {
+            Email.send({
+                SecureToken: "28580df0-d4c7-4fb8-8e21-38318a00ed28",
+                To: 'leonardo.gomiero.c.c@gmail.com',
+                From: "you@isp.com",
+                Subject: "This is the subject",
+                Body: "Name: " + document.getElementByID("name").value
+                    + "<br> Email: " + document.getElementByID("email").value
+                    + "<br> Subject: " + document.getElementByID("subject").value
+                    + "<br> Message: " + document.getElementByID("message").value
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        }
+    </script>
 </body>
 
 </html>
