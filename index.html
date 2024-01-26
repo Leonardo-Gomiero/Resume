@@ -439,9 +439,9 @@
         <h1>Contact Me</h1>
         <div class="contact-items">
 
-
             <div class="left block">
                 <form onsubmit="sendEmail(); reset(); return false;">
+                    <h2>Feel free to contact me</h2>
                     <input type="text" id="name" placeholder="Name" required>
                     <input type="email" id="email" placeholder="Email" required>
                     <input type="text" id="subject" placeholder="Subject" required>
@@ -484,7 +484,9 @@
     <script>
         function sendEmail() {
             Email.send({
-                SecureToken: "28580df0-d4c7-4fb8-8e21-38318a00ed28",
+                Host: "smtp.gmail.com",
+                Username: "leoleonardo2000@gmail.com",
+                Password: "30F512E0DB7A650EB25499687F7407145866",
                 To: 'leonardo.gomiero.c.c@gmail.com',
                 From: "you@isp.com",
                 Subject: "This is the subject",
