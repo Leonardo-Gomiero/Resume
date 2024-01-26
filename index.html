@@ -17,8 +17,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./scripts/menu.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/email.js"></script>
     <script src="scripts/testimonials.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
@@ -478,27 +480,6 @@
         </div>
     </footer>
 
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "leoleonardo2000@gmail.com",
-                Password: "30F512E0DB7A650EB25499687F7407145866",
-                To: 'leonardo.gomiero.c.c@gmail.com',
-                From: "you@isp.com",
-                Subject: "This is the subject",
-                Body: "Name: " + document.getElementByID("name").value
-                    + "<br> Email: " + document.getElementByID("email").value
-                    + "<br> Subject: " + document.getElementByID("subject").value
-                    + "<br> Message: " + document.getElementByID("message").value
-            }).then(
-                message => alert("Message Sent Successfully")
-            );
-        }
-    </script>
 </body>
 
 </html>
