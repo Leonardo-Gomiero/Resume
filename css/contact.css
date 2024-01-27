@@ -1,7 +1,7 @@
 section.contact {
-  margin: 7vh auto 7vh auto;
-  width: 100%;
-  align-items: center;
+    margin: 7vh auto 7vh auto;
+    width: 100%;
+    align-items: center;
 }
 
 .contact-items {
@@ -14,25 +14,43 @@ section.contact {
 
 .contact-items .left {
     flex: 1;
-    margin: 5vh 2.5vh 5vh 5vh;
+    margin-right: 2.5vh;
 }
 
 .contact-items .right {
     flex: 1;
-    margin: 5vh 5vh 5vh 2.5vh;
+    margin-left: 2.5vh;
 }
 
 .contact-items .block {
-    background-color: gray;
-    
+    background-color: white;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-items .block ul{
+    padding: 0 5vw 0 5vh;
+    height: 30%;
+}
+
+.contact-items .block h5{
+    min-width: fit-content;
+    font-size: small;
+    color: black;
+}
+
+.contact-items .block span{
+    min-width: fit-content;
+    font-size: smaller;
+    color: black;
 }
 
 form {
-    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 2vw 2vw;
-    width: 90%;
+    width: 19vw;
 }
 
 form h2 {
@@ -51,4 +69,10 @@ form input, form textarea{
 #form-button {
     width: 50%;
     background-color: aqua;
+}
+
+
+iframe {
+    width: 100%;
+    flex-grow: 1;
 }
