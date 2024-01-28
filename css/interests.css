@@ -14,12 +14,37 @@ section.interests {
 
 .icon {
   padding: 2%;
-  height: 5vw;
+  height: 3.5vw;
   margin: 0 1vh 0 1vh;
+  border: 0.2vh solid rgba(0, 0, 0, 0.1);
 }
 
 .icon img {
   border: 50%;
+}
+
+a {
+  color: #900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  position: relative;
+}
+
+a[data]:hover:after {
+  content: attr(data);
+  padding: 4px 4px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 2;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
 }
 
 @media (max-width: 730px) {
