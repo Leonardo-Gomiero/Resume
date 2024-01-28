@@ -1,0 +1,35 @@
+section.interests {
+  margin: 3vh auto 3vh auto;
+  width: 100vh;
+  text-align: center;
+}
+
+.interests .text-section {
+  text-align: center;
+}
+
+.icons {
+  margin-top: 3vh;
+}
+
+.icon {
+  padding: 2%;
+  height: 5vw;
+  margin: 0 1vh 0 1vh;
+}
+
+.icon img {
+  border: 50%;
+}
+
+@media (max-width: 730px) {
+  .interests h2 {
+    font-size: 2.4vh;
+    width: 100%;
+  }
+
+  section.interests {
+    width: 90%;
+    margin: 5%;
+  }
+}
