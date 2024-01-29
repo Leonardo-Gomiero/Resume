@@ -159,7 +159,8 @@
 
 #slide_1:checked ~ .slider .slide_1:before,
 #slide_2:checked ~ .slider .slide_2:before,
-#slide_3:checked ~ .slider .slide_3:before {
+#slide_3:checked ~ .slider .slide_3:before,
+#slide_4:checked ~ .slider .slide_4:before {
     transform: scaleX(1);
     width: 100%;
 }
