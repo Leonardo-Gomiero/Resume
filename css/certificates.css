@@ -8,7 +8,7 @@
     position: relative;
     height: 350px;
     width: 100%;
-    margin: auto;
+    margin: 3vh auto 3vh auto;
     background-color: white;
     border-radius: 25px;
     box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
