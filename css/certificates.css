@@ -1,8 +1,13 @@
+.certificates {
+    margin: 3vh auto 3vh auto;
+    width: 100vh;
+    text-align: center;
+}
+
 .card {
     position: relative;
     height: 350px;
     width: 100%;
-    max-width: 850px;
     margin: auto;
     background-color: white;
     border-radius: 25px;
@@ -13,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 3.5vh;
     height: 350px;
     position: absolute;
 }
@@ -49,7 +54,8 @@
 
 #slide_1:checked ~ .inner_part .img_1 ,
 #slide_2:checked ~ .inner_part .img_2 ,
-#slide_3:checked ~ .inner_part .img_3 {
+#slide_3:checked ~ .inner_part .img_3,
+#slide_4:checked ~ .inner_part .img_4 {
     opacity: 1;
     transition-delay: .2s;
 }
@@ -66,20 +72,21 @@
     display: none;
 }
 
-#slide_1:checked ~ .inner_part .content,
-#slide_2:checked ~ .inner_part .content,
-#slide_3:checked ~ .inner_part .content {
+#slide_1:checked ~ .inner_part .content_1,
+#slide_2:checked ~ .inner_part .content_2,
+#slide_3:checked ~ .inner_part .content_3,
+#slide_4:checked ~ .inner_part .content_4 {
     opacity: 1;
     margin-left: 0;
     z-index: 100;
     transition-delay: .3s;
 }
 
-.content.title-certificate {
+.content .title-certificate {
     font-size: 30px;
     font-weight: 700;
     color: #0d0925;
-    margin: 0 0 20px 0;
+    text-align: left;
 }
 
 .content .text {
@@ -87,7 +94,7 @@
     color: #4e4a67;
     margin: 0 auto 30px auto;
     line-height: 1.5em;
-    text-align: justify;
+    text-align: left;
 }
 
 .content button{
@@ -101,7 +108,7 @@
     cursor: pointer;
     outline: none;
     background-color: #005ce6;
-    float: right;
+    float: left;
 }
 
 .content button:hover {
@@ -109,10 +116,14 @@
     color: #005ce6;
 }
 
+.content button a {
+    color: white;
+}
+
 .slider {
     position: absolute;
-    bottom: 25px;
-    left: 55px;
+    bottom: 1vh;
+    left: 50%;
     transform: translateX(-50%);
     z-index: 1;
 }

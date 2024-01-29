@@ -195,9 +195,13 @@ section.skills-bars {
   color: rgb(255, 255, 255, .7);
 }
 
+button a {
+  color: black;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 2vh;
 }
 
