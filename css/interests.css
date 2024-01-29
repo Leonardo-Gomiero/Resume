@@ -24,12 +24,10 @@ section.interests {
 }
 
 a {
-  color: #900;
   text-decoration: none;
 }
 
 a:hover {
-  color: red;
   position: relative;
 }
 
