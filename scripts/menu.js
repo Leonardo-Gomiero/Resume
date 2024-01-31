@@ -11,3 +11,7 @@ function menuShow() {
         icon.src = "./assets/close_white_36dp.svg";
     }
 }
+
+function scrollToSection(sectionId) {
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+}

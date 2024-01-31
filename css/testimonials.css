@@ -10,8 +10,8 @@
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 30px;
-  flex: 1 1 50vw;
-  max-width: 60vh;
+  flex: 1 1 30vw;
+  max-width: 50vh;
   box-sizing: border-box;
 }
 
