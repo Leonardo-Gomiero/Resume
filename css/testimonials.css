@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-.test-container {
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 15px;
-}
 
 .test-header {
     text-align: center;
@@ -12,7 +7,7 @@
 }
 
 .testimonials {
-    padding: 10vh 0;
+    margin-top: 10vh;
 }
 
 .testimonials-item {

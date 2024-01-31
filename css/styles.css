@@ -25,10 +25,10 @@ ul {
   padding: 0;
 }
 
-section.introduction {
+section {
   margin: 3vh auto 3vh auto;
-  width: 100vh;
-  text-align: center;
+  width: 70vw;
+  align-items: center;
 }
 
 .button-18 {

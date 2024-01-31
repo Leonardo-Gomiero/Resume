@@ -1,3 +1,7 @@
+.technologies {
+  width: 100vw;
+}
+
 @keyframes slide {
   from {
     transform: translateX(0);
