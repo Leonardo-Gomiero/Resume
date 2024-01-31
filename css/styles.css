@@ -27,7 +27,7 @@ ul {
 
 section {
   margin: 3vh auto 3vh auto;
-  width: 70vw;
+  width: 48vw;
   align-items: center;
 }
 
@@ -230,6 +230,9 @@ footer {
   font-weight: 200;
 }
 
+.introduction h2 {
+  text-align: center;
+}
 
 .text-section p{
   margin: 0;

@@ -5,10 +5,12 @@
   align-items: center;
   justify-content: space-around;
   padding: 7vh;
+  height: fit-content;
 }
 
 .project .main iframe {
-  height: 50vh;
+  min-height: 70vh;
+  width: auto;
 }
 
 .project .under-text p{
