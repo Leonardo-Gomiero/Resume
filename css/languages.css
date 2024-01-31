@@ -1,0 +1,15 @@
+
+.english {
+    width: 100%;
+    animation: html 3s;
+  }
+  
+  .spanish {
+    width: 50%;
+    animation: html 3s;
+  }
+  
+  .italian {
+    width: 70%;
+    animation: html 3s;
+  }

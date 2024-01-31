@@ -1,0 +1,163 @@
+section.about {
+  background-color: rgb(26, 26, 73);
+  margin: 3vh auto 3vh auto;
+  width: 100vh;
+  align-items: center;
+}
+
+section.skills-bars {
+  margin: 7vh auto 7vh auto;
+  width: 100%;
+  align-items: center;
+}
+
+.about img {
+  width: 35vh;
+}
+
+.about-text {
+  width: 50vh;
+  height: auto;
+}
+
+.under-text {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main {
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3vh;
+}
+
+.image-small {
+  width: 5%;
+}
+
+.title-lang {
+  display: flex;
+  align-items: center;
+}
+
+.title-lang h3 {
+  padding-left: 2vh;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 5vh;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.thin {
+  color: white;
+  font-size: 6vh;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 100;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 0.3vh;
+  font-size: 2.6vh;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: white;
+  letter-spacing: 0.2vh;
+  line-height: 2vh;
+  font-size: 2vh;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8vh 0 0.8vh;
+}
+
+.list-group h5 {
+  color: white;
+  font-size: 1.7vh;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.badge {
+  color: white;
+  text-align: right;
+}
+
+@media (max-width: 730px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.about {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text h2 {
+    font-size: 3.8vh;
+  }
+
+  .about-text h5 {
+    font-size: 1.5vh;
+  }
+
+  .about-text li {
+    font-size: 1.5vh;
+  }
+
+  main.row{
+    grid-template-columns: 1fr;
+  }
+
+  .row .col:nth-child(2){
+    margin-top: 30%;
+  }
+}
