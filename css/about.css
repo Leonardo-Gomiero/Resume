@@ -3,12 +3,13 @@ section.about {
 }
 
 .about img {
-  width: 35vh;
+  width: 50%;
+  margin: 0 3vw 0 0;
 }
 
 .about-text {
-  width: 50vh;
-  height: auto;
+  width: 50%;
+  height: 90%;
 }
 
 .under-text {
@@ -23,11 +24,11 @@ section.about {
 
 
 .main {
-  max-width: 95%;
+  max-width: 95vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 3vh;
+  padding: 3vh 6vw 3vh 6vw;
 }
 
 .image-small {
@@ -118,7 +119,7 @@ section.about {
   text-align: right;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 110vh) {
   .main {
     display: flex;
     flex-direction: column;
@@ -134,15 +135,19 @@ section.about {
   }
 
   .about-text h2 {
-    font-size: 3.8vh;
+    font-size: 7vw;
   }
 
   .about-text h5 {
-    font-size: 1.5vh;
+    font-size: 2.4vw;
   }
 
   .about-text li {
     font-size: 1.5vh;
+  }
+
+  .about-text .badge {
+    font-size: 2.4vw;
   }
 
   main.row{

@@ -35,8 +35,10 @@ ul {
 
 section {
   margin: 3vh auto 3vh auto;
-  width: 48vw;
+  width: 900px;
+  max-width: 90vw;
   align-items: center;
+  
 }
 
 .button-18 {
@@ -263,7 +265,7 @@ footer {
 }
 
 
-@media (max-width: 73vh) {
+@media (max-width: 110vh) {
   
   .introduction h2 {
     font-size: 2.4vh;
@@ -312,7 +314,7 @@ footer {
     display: block;
   }
 
-  section.introduction {
+  section {
     width: 90%;
     margin: 5%;
   }
