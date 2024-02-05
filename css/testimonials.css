@@ -2,14 +2,14 @@
 
 .test-header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 5vh;
 }
 
 
 .testimonials-item {
   background-color: hsl(0, 0%, 100%);
-  padding: 30px;
-  border-radius: 30px;
+  padding: 3vh;
+  border-radius: 3vh;
   flex: 1 1 30vw;
   max-width: 50vh;
   box-sizing: border-box;
@@ -21,14 +21,14 @@
 }
 
 .testimonials-item img {
-  max-width: 80px;
+  max-width: 8vh;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 2vh;
   vertical-align: middle;
 }
 
 .testimonials .name {
-  font-size: 24px;
+  font-size: 2.4vh;
   text-transform: capitalize;
   font-weight: 600;
   color: hsl(0, 0%, 0%);
@@ -41,24 +41,24 @@
 }
 
 .testimonials-item p {
-  margin-top: 20px;
+  margin-top: 2vh;
   color: hsl(0, 0%, 40%);
 }
 
 .testimonials-item .rating {
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 1.5vh;
+  font-size: 1.6vh;
   color: hsl(36, 88%, 66%);
 }
 
 .testimonials .swiper-pagination {
   position: relative;
-  margin-top: 40px;
+  margin-top: 4vh;
   bottom: auto;
 }
 
 .testimonials .swiper-pagination-bullet {
-  height: 12px;
-  width: 12px;
+  height: 1.2vh;
+  width: 1.2vh;
   border-color: hsl(0, 0%, 100%);
 }

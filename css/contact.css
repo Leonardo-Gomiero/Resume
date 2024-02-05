@@ -8,7 +8,6 @@ section.contact {
     width: 100vh;
     margin: 0 auto 0 auto;
     color: white;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10xp rgba(0, 0, 0, 0.22);
     display: flex;
 }
 
@@ -27,6 +26,7 @@ section.contact {
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 1.4vh 2.8vh rgba(0, 0, 0, 0.25), 0 1vh 1vh rgba(0, 0, 0, 0.22);
 }
 
 .contact-items .block ul{
@@ -38,6 +38,7 @@ section.contact {
     min-width: fit-content;
     font-size: small;
     color: black;
+    margin-right: 2vh;
 }
 
 .contact-items .block span{
@@ -63,7 +64,7 @@ form input, form textarea{
     padding: 2vh;
     outline: none;
     background: #f5f5f5;
-    font-size: 16px;
+    font-size: 1.6vh;
 }
 
 #form-button {

@@ -47,10 +47,10 @@ section {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-flex;
-  font-size: 16px;
+  font-size: 1.6vh;
   font-weight: 600;
   justify-content: center;
-  line-height: 20px;
+  line-height: 2vh;
   width: 20vh;
   height: 5.7vh;
   overflow: hidden;
@@ -99,7 +99,7 @@ a {
 
 header {
   background-color: #24252a;
-  box-shadow: 0px 3px 10px #464646;
+  box-shadow: 1vh 0.3vh 1vh #464646;
 }
 
 .nav-bar {
@@ -130,7 +130,7 @@ header {
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0 1.5vw;
 }
 
 .nav-link {
@@ -142,8 +142,8 @@ header {
 
 .login-button button {
   border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 1vh 1.5vw;
+  border-radius: 0.5vh;
   background-color: #0187a7;
 }
 
@@ -166,7 +166,7 @@ footer {
   background: #111;
   height: auto;
   font-family: "Open Sans";
-  padding-top: 40px;
+  padding-top: 4vh;
   color: #fff;
   bottom: 0;
 }
@@ -187,10 +187,10 @@ footer {
 }
 
 .footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
+  max-width: 50vh;
+  margin: 1vh auto;
+  line-height: 2.8vh;
+  font-size: 1.5vh;
 }
 
 .socials {
@@ -202,7 +202,7 @@ footer {
 }
 
 .socials li {
-  margin: 0 10px;
+  margin: 0 1vh;
 }
 
 .socials a {
@@ -221,13 +221,13 @@ footer {
 
 .footer-bottom {
   background: #000;
-  padding: 20px 0;
+  padding: 2vh 0;
   text-align: center;
 }
 
 .footer-bottom p {
-  font-size: 14px;
-  word-spacing: 2px;
+  font-size: 1.4vh;
+  word-spacing: 0.2vh;
   text-transform: capitalize;
   bottom: 0;
 }
@@ -263,7 +263,7 @@ footer {
 }
 
 
-@media (max-width: 730px) {
+@media (max-width: 73vh) {
   
   .introduction h2 {
     font-size: 2.4vh;
