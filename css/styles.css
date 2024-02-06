@@ -21,7 +21,7 @@ h2 {
 }
 
 h1 {
-  font-size: 5vh;
+  font-size: 2vw;
   text-align: center;
   color: #fff;
   margin: 2vh 0 2vh 0;
@@ -107,7 +107,7 @@ header {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 6rem;
+  padding: 3vh 4vw 3vh 4vw;
 }
 
 .logo {
@@ -137,7 +137,7 @@ header {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.5vw;
   color: #fff;
   font-weight: 400;
 }
@@ -267,6 +267,11 @@ footer {
 
 @media (max-width: 110vh) {
   
+  h1 {
+    margin: auto 0 auto 0;
+    font-size: 6vw;
+  }
+
   .introduction h2 {
     font-size: 2.4vh;
     width: 100%;
@@ -277,8 +282,9 @@ footer {
   }
   
   .nav-bar {
-    padding: 1.5rem 4rem;
+    padding: 2vh 5vw 2vh 5vw;
   }
+
   .nav-item {
     display: none;
   }
@@ -288,6 +294,15 @@ footer {
   .mobile-menu-icon {
     display: block;
   }
+
+  .mobile-menu-icon img{
+    height: 8vw;
+  }
+
+  .iconImg {
+    margin: auto 0 auto 0;
+  }
+
   .mobile-menu-icon button {
     background-color: transparent;
     border: none;
@@ -318,5 +333,6 @@ footer {
     width: 90%;
     margin: 5%;
   }
+
 
 }
