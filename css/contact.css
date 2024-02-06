@@ -1,12 +1,6 @@
-section.contact {
-    margin: 7vh auto 7vh auto;
-    width: 100%;
-    align-items: center;
-}
+
 
 .contact-items {
-    width: 100vh;
-    margin: 0 auto 0 auto;
     color: white;
     display: flex;
 }
@@ -76,4 +70,40 @@ form input, form textarea{
 iframe {
     width: 100%;
     flex-grow: 1;
+}
+
+
+@media (max-width: 110vh) {
+    .contact-items {
+        flex-direction: column;
+    }
+
+    .contact-items .block {
+        margin: 0 0 2vh 0;
+        padding: 2vh;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    #form-button {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .list-group {
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    iframe {
+        width: 80%;
+        margin: 0 auto 0 auto;
+        flex-grow: 1;
+        min-height: 30vh;
+    }
 }

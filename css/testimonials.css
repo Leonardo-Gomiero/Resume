@@ -10,8 +10,8 @@
   background-color: hsl(0, 0%, 100%);
   padding: 3vh;
   border-radius: 3vh;
-  flex: 1 1 30vw;
-  max-width: 50vh;
+  flex: 1 1 100%;
+  min-width: 100%;
   box-sizing: border-box;
 }
 
@@ -62,3 +62,4 @@
   width: 1.2vh;
   border-color: hsl(0, 0%, 100%);
 }
+

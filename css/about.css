@@ -125,13 +125,12 @@ section.about {
     flex-direction: column;
   }
 
-  section.about {
-    width: 90%;
-    margin: 5%;
-  }
-
   .about-text {
     width: 90%;
+  }
+
+  .about .list-group{
+    width: 100%;
   }
 
   .about-text h2 {
@@ -154,7 +153,7 @@ section.about {
     grid-template-columns: 1fr;
   }
 
-  .row .col:nth-child(2){
+  .about .row .col:nth-child(2){
     margin-top: 30%;
   }
 }

@@ -72,19 +72,15 @@
 }
 
 
-@media (max-width: 73vh) {
+@media (max-width: 110vh) {
     
   .skills {
     flex-direction: column;
-    width: 50%;
-    margin: 0 25% 0 25%;
-
   }
 
   .skills-bars {
     align-items: center;
     text-align: center;
-    margin: 0;
   }
 
   .right {

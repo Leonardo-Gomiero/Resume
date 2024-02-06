@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true
         },
         breakpoints: {
-            767: {
-                slidesPerView: 2
+            '110': {
+                slidesPerView: 1
             }
         }
     });
