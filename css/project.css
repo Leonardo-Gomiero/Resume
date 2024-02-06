@@ -16,3 +16,9 @@
 .project .under-text p{
     margin: 2vh 7vh 2vh 7vh;
 }
+
+@media (max-width: 110vh) {
+  .project .main iframe {
+    width: 100%;
+  }
+}
