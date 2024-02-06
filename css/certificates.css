@@ -56,7 +56,7 @@
 
 .content {
     padding: 0 2vh 0 3.5vh;
-    width: 53vh;
+    width: 100%;
     margin-left: 5vh;
     opacity: 0;
     transition: .6s;
@@ -188,7 +188,7 @@
 @media (max-width: 73vh) {
     
     .card {
-        height: 57vh;
+        height: 80vh;
     }
 
     .card .inner_part {
