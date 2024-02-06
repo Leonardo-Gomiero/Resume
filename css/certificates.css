@@ -84,7 +84,7 @@
 }
 
 .content .text {
-    font-size: 1.9v;
+    font-size: 2vh;
     color: #4e4a67;
     margin: 0 auto 3vh auto;
     line-height: 1.5em;
@@ -167,6 +167,10 @@
 
 @media (max-width: 110vh) {
     
+    .content .text {
+        font-size: 2vw;
+    }
+
     .certificates .card{
         width: 100%;
     }
@@ -187,8 +191,12 @@
 
 @media (max-width: 73vh) {
     
+    .content .text {
+        font-size: 3vw;
+    }
+    
     .card {
-        height: 80vh;
+        height: 100vw;
     }
 
     .card .inner_part {
