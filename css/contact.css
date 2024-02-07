@@ -32,7 +32,7 @@
     min-width: fit-content;
     font-size: small;
     color: black;
-    margin-right: 2vh;
+    margin: 0 2vh 0 0;
 }
 
 .contact-items .block span{
