@@ -95,9 +95,10 @@ iframe {
         margin: 0 auto 0 auto;
     }
 
-    .list-group {
+    .grouplist {
         width: 80%;
         margin: 0 auto 0 auto;
+        padding: 0;
     }
 
     iframe {
@@ -105,5 +106,19 @@ iframe {
         margin: 0 auto 0 auto;
         flex-grow: 1;
         min-height: 30vh;
+    }
+
+    .contact .grouplist {
+        text-align: left;
+    }
+
+    .contact .grouplist h5{
+        margin: 0;
+    }
+
+    .contact .grouplist li{
+        flex-direction: column;
+        width: 100%;
+        margin: 2vh 0 2vh 0;
     }
 }
