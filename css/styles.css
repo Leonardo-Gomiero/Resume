@@ -14,6 +14,7 @@ html {
 
 a:hover {
   cursor: pointer;
+  color: aqua;
 }
 
 h2 {
@@ -164,6 +165,10 @@ header {
   display: none;
 }
 
+.mobile-menu a{
+  font-size: 3vw;
+}
+
 footer {
   background: #111;
   height: auto;
@@ -182,10 +187,11 @@ footer {
 }
 
 .footer-content h3 {
-  font-size: 1.8rem;
+  font-size: 3.5vh;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
+  margin: 0;
 }
 
 .footer-content p {
@@ -200,7 +206,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 2vh 0 2vh 0;
 }
 
 .socials li {
@@ -316,7 +322,7 @@ footer {
   }
   .mobile-menu .nav-item {
     display: block;
-    padding-top: 1.2rem;
+    padding: 2vh 0 2vh 0;
   }
   .mobile-menu .login-button {
     display: block;

@@ -120,6 +120,7 @@ section.about {
 }
 
 @media (max-width: 110vh) {
+  
   .main {
     display: flex;
     flex-direction: column;
@@ -156,4 +157,5 @@ section.about {
   .about .row .col:nth-child(2){
     margin-top: 30%;
   }
+
 }
