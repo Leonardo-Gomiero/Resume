@@ -105,11 +105,12 @@ section.about {
   justify-content: space-between;
   align-items: center;
   padding: 0.8vh 0 0.8vh;
+  font-size: 13px;
 }
 
 .list-group h5 {
   color: white;
-  font-size: 1.7vh;
+  font-size: 13px;
   margin: 0;
   text-transform: capitalize;
 }
@@ -135,7 +136,7 @@ section.about {
   }
 
   .about-text h2 {
-    font-size: 7vw;
+    font-size: 6.7vw;
   }
 
   .about-text h5 {

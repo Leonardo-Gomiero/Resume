@@ -275,6 +275,10 @@ footer {
   
   h1 {
     margin: auto 0 auto 0;
+    font-size: 8vw;
+  }
+
+  .logo h1 {
     font-size: 6vw;
   }
 
@@ -340,5 +344,7 @@ footer {
     margin: 5%;
   }
 
-
+  #introducing {
+    font-size: 2vh;
+  }
 }
