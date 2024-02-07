@@ -52,3 +52,13 @@
   height: 14vh;
   margin: 0 4vh;
 }
+
+@media (max-width: 110vh) {
+  .technologies {
+    margin: 0;
+  }
+
+  .logos {
+    width: 100vw;
+  }
+}
