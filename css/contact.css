@@ -116,6 +116,10 @@ iframe {
         margin: 0;
     }
 
+    .contact .grouplist .badge{
+        margin: 0;
+    }
+
     .contact .grouplist li{
         flex-direction: column;
         width: 100%;
