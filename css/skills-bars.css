@@ -76,7 +76,7 @@
     
   .skills {
     flex-direction: column;
-    margin: 3vh 0 3vh 0;
+    margin: 0 0 3vh 0;
   }
 
   .skills-bars {

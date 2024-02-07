@@ -258,7 +258,6 @@ footer {
 .text-section {
   background-color: white;
   padding: 5vh;
-  margin-top: 2vh;
   text-align: justify;
 }
 
@@ -274,7 +273,7 @@ footer {
 @media (max-width: 110vh) {
   
   h1 {
-    margin: auto 0 auto 0;
+    margin: auto 0 1vh 0;
     font-size: 8vw;
   }
 

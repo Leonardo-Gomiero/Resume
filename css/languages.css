@@ -1,4 +1,3 @@
-
 .english {
     width: 100%;
     animation: html 3s;
@@ -18,6 +17,10 @@
     color: #FEBD40;
     font-weight: bold;
     font-style: italic;
+  }
+
+  .languages p{
+    margin-top: 1vh;
   }
 
   @media (max-width: 110vh) {
