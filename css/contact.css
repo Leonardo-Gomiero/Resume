@@ -57,7 +57,7 @@ form input, form textarea{
     padding: 2vh;
     outline: none;
     background: #f5f5f5;
-    font-size: 1.6vh;
+    font-size: 2vh;
     resize: none;
 }
 
@@ -124,5 +124,9 @@ iframe {
         flex-direction: column;
         width: 100%;
         margin: 2vh 0 2vh 0;
+    }
+
+    form input, form textarea{
+        font-size: 1.6vh;
     }
 }

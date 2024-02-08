@@ -11,6 +11,7 @@
 
 .project .main iframe {
   aspect-ratio: 16/9;
+  margin: 0 3vw;
 }
 
 .project .under-text p {
