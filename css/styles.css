@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -39,7 +39,6 @@ section {
   width: 900px;
   max-width: 90vw;
   align-items: center;
-  
 }
 
 .button-18 {
@@ -60,7 +59,9 @@ section {
   padding: 0 2vh 0 2vh;
   text-align: center;
   touch-action: manipulation;
-  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
@@ -68,12 +69,12 @@ section {
 
 .button-18:hover,
 .button-18:focus {
-  box-shadow: 0 1.5vh 2vh rgba(0, 0, 0, .5);
+  box-shadow: 0 1.5vh 2vh rgba(0, 0, 0, 0.5);
 }
 
 .button-18:active {
   background: #09223b;
-  color: rgb(255, 255, 255, .7);
+  color: rgb(255, 255, 255, 0.7);
 }
 
 button a {
@@ -88,8 +89,8 @@ a {
 
 .button-18:disabled {
   cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .download-cv {
@@ -98,7 +99,6 @@ a {
   align-items: center;
   margin-bottom: 3vh;
 }
-
 
 header {
   background-color: #24252a;
@@ -165,7 +165,7 @@ header {
   display: none;
 }
 
-.mobile-menu a{
+.mobile-menu a {
   font-size: 5vw;
 }
 
@@ -209,10 +209,6 @@ footer {
   margin: 2vh 0 2vh 0;
 }
 
-.socials li {
-  margin: 0 1vh;
-}
-
 .socials a {
   text-decoration: none;
   color: #fff;
@@ -250,7 +246,7 @@ footer {
   text-align: center;
 }
 
-.text-section p{
+.text-section p {
   margin: 0;
   font-size: 1.8vh;
 }
@@ -269,9 +265,11 @@ footer {
   display: inline-block;
 }
 
+.socials li {
+  margin: 0 1vw;
+}
 
 @media (max-width: 110vh) {
-  
   h1 {
     margin: auto 0 1vh 0;
     font-size: 8vw;
@@ -285,11 +283,11 @@ footer {
     font-size: 2.4vh;
     width: 100%;
   }
-  
+
   .image-small {
     width: 15%;
   }
-  
+
   .nav-bar {
     padding: 2vh 5vw 2vh 5vw;
   }
@@ -304,7 +302,7 @@ footer {
     display: block;
   }
 
-  .mobile-menu-icon img{
+  .mobile-menu-icon img {
     height: 8vw;
   }
 
@@ -345,5 +343,9 @@ footer {
 
   #introducing {
     font-size: 2vh;
+  }
+
+  .socials li {
+    margin: 0 4vw 0 4vw;
   }
 }

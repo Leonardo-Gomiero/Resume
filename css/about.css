@@ -22,7 +22,6 @@ section.about {
   text-align: center;
 }
 
-
 .main {
   max-width: 95vw;
   display: flex;
@@ -81,10 +80,6 @@ section.about {
   justify-content: center;
 }
 
-.socials li {
-  margin: 0 1vw;
-}
-
 .socials a {
   text-decoration: none;
   color: #fff;
@@ -121,7 +116,6 @@ section.about {
 }
 
 @media (max-width: 110vh) {
-  
   .main {
     display: flex;
     flex-direction: column;
@@ -131,7 +125,7 @@ section.about {
     width: 90%;
   }
 
-  .about .list-group{
+  .about .list-group {
     width: 100%;
   }
 
@@ -151,12 +145,20 @@ section.about {
     font-size: 3vw;
   }
 
-  main.row{
+  main.row {
     grid-template-columns: 1fr;
   }
 
-  .about .row .col:nth-child(2){
+  .about .row .col:nth-child(2) {
     margin-top: 30%;
+  }
+
+  .under-text li {
+    margin: 0 4vw 0 4vw;
+  }
+
+  .under-text i {
+    height: 5vw;
   }
 
 }
