@@ -246,6 +246,10 @@ footer {
   text-align: center;
 }
 
+.introduction p {
+  font-size: 2vh;
+}
+
 .text-section p {
   margin: 0;
   font-size: 1.8vh;
