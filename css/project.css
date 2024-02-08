@@ -19,8 +19,13 @@
 
 @media (max-width: 110vh) {
   
-  .project p{
-    font-size: 2.5vw;
+  .project .under-text {
+    width: 100%;
+  }
+
+  .project .under-text p{
+    font-size: 3vw;
+    margin: 2vh;
   }
 
 }
