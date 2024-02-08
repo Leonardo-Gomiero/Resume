@@ -15,3 +15,8 @@ function menuShow() {
 function scrollToSection(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
 }
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    var scrollpos = localStorage.getItem("scrollpos");
+    if (scrollpos) window.scrollTo(0, scrollpos);
+  });

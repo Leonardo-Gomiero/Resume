@@ -1,3 +1,4 @@
+
 .project .main {
   background-color: white;
   max-width: auto;
@@ -10,22 +11,19 @@
 
 .project .main iframe {
   aspect-ratio: 16/9;
-
 }
 
-.project .under-text p{
-    margin: 2vh 7vh 2vh 7vh;
+.project .under-text p {
+  margin: 2vh 7vh 2vh 7vh;
 }
 
 @media (max-width: 110vh) {
-  
   .project .under-text {
     width: 100%;
   }
 
-  .project .under-text p{
+  .project .under-text p {
     font-size: 3vw;
     margin: 2vh;
   }
-
 }
