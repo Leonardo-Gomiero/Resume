@@ -24,7 +24,7 @@ h2 {
 h1 {
   font-size: 2vw;
   text-align: center;
-  color: #fff;
+  color: black;
   margin: 2vh 0 2vh 0;
   width: 100%;
 }
@@ -83,7 +83,7 @@ button a {
 
 a {
   text-decoration: none;
-  color: white;
+  color: red;
   font-size: 2vh;
 }
 
