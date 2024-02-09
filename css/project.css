@@ -16,6 +16,7 @@
 
 .project .under-text p {
   margin: 2vh 7vh 2vh 7vh;
+  color: white;
 }
 
 @media (max-width: 110vh) {
