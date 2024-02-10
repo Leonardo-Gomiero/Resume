@@ -28,8 +28,8 @@
   float: left;
   background: linear-gradient(
     135deg,
-    rgba(236, 0, 140, 1) 0%,
-    rgba(252, 103, 103, 1) 100%
+    #ABCBCF 0%,
+    #00BFCC 100%
   );
 }
 
