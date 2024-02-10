@@ -62,8 +62,9 @@ form input, form textarea{
 
 #form-button {
     width: 50%;
-    background-color: aqua;
+    background-color: #00BFCC;
     font-size: 2vh;
+    color: white;
 }
 
 
