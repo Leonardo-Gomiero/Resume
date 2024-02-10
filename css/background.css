@@ -1,9 +1,11 @@
-
-
 main.row {
   display: flex;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2vh;
+}
+
+.background h2 {
+  color: white;
 }
 
 .col header.title {
@@ -39,13 +41,13 @@ main.row {
   border-radius: 50%;
   right: calc(100% + 2.2vh);
   top: 0;
-  background-color: #11a372;
+  background-color: #00BFCC;
   border: 0.3vh solid white;
 }
 
 .box h4 {
   position: relative;
-  color: #11a372;
+  color: #00BFCC;
 }
 
 .box h5 {
