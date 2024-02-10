@@ -14,7 +14,7 @@ html {
 
 a:hover {
   cursor: pointer;
-  color: aqua;
+  color: #00BFCC;
 }
 
 h1, h2, h3, h4, h5 {
@@ -219,7 +219,7 @@ footer {
 }
 
 .socials a:hover {
-  color: aqua;
+  color: #00BFCC;
 }
 
 .footer-bottom {

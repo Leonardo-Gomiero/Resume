@@ -21,6 +21,7 @@
 
   .languages p{
     margin-top: 1vh;
+    color: black;
   }
 
   @media (max-width: 110vh) {
