@@ -51,7 +51,6 @@ main.row {
 .box h5 {
   font-size: 1.5vh;
   font-family: helvetica;
-  color: #444;
   margin-bottom: 1vh;
 }
 
@@ -59,7 +58,6 @@ main.row {
   font-size: 2.4vh;
   padding: 1vh 0 0.6vh;
   font-family: helvetica;
-  color: #444;
 }
 
 .box p {

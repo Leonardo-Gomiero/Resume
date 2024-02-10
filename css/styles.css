@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #b1b2ba ;
+  background: #EFEFEF;
   margin: 0;
 }
 
@@ -17,14 +17,13 @@ a:hover {
   color: aqua;
 }
 
-h2 {
-  color: black;
+h1, h2, h3, h4, h5 {
+  color: #3D4451;
 }
 
 h1 {
   font-size: 2vw;
   text-align: center;
-  color: black;
   margin: 2vh 0 2vh 0;
   width: 100%;
 }

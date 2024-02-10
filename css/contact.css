@@ -49,9 +49,6 @@ form {
     padding: 2vw 2vw;
 }
 
-form h2 {
-    color: black;
-}
 
 form input, form textarea{
     border: 0;
