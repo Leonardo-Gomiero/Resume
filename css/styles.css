@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #EFEFEF;
+  background: #efefef;
   margin: 0;
   overflow-x: hidden;
 }
@@ -17,13 +17,104 @@ html {
   display: none;
 }
 
-a:hover {
-  cursor: pointer;
-  color: #00BFCC;
+.language {
+  position: relative;
+  width: 120px;
+  margin-left: 40px;
+  font-weight: bold;
 }
 
-h1, h2, h3, h4, h5 {
-  color: #3D4451;
+.language-selected {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.language-selected:before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.language-selected.change-br:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d4/Brazilian_Flag_-_round.svg);
+}
+
+.language-selected.change-en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png);
+}
+
+.language-selected.change-es:before {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/018/880/634/original/3d-flag-of-spain-on-avatar-circle-png.png);
+}
+
+.nav-list .language ul {
+  position: absolute;
+  width: 140px;
+  background-color: #24252a;
+  padding-top: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.language:hover ul {
+  display: block;
+}
+
+.language ul li {
+  list-style: none;
+}
+
+.language ul li a {
+  display: block;
+  color: white;
+  padding-top: 5px 10px;
+}
+
+.language ul li:hover {
+  background-color: black;
+}
+
+.language ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+a.br:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d4/Brazilian_Flag_-_round.svg);
+}
+
+a.en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png);
+}
+
+a.es:before {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/018/880/634/original/3d-flag-of-spain-on-avatar-circle-png.png);
+}
+
+a:hover {
+  cursor: pointer;
+  color: #00bfcc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #3d4451;
 }
 
 h1 {
@@ -228,7 +319,7 @@ footer {
 }
 
 .socials a:hover {
-  color: #00BFCC;
+  color: #00bfcc;
 }
 
 .footer-bottom {
