@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.intro {
+  display: none;
+}
+
 a:hover {
   cursor: pointer;
   color: #00BFCC;
