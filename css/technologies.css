@@ -4,8 +4,13 @@
 }
 
 .logos {
+  overflow: hidden;
+  padding: 3vh 0;
+  background: rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  position: relative;
   width: 100vw;
-  overflow-x: hidden; /* Hide horizontal overflow */
+
 }
 
 @keyframes slide {
@@ -13,16 +18,8 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 4vh));
+    transform: translateX(-100%);
   }
-}
-
-.logos {
-  overflow: hidden;
-  padding: 3vh 0;
-  background: rgba(0, 0, 0, 0.3);
-  white-space: nowrap;
-  position: relative;
 }
 
 .logos:before,
@@ -52,7 +49,6 @@
 .logos-slide {
   display: inline-block;
   animation: 35s slide infinite linear;
-  white-space: nowrap;
 }
 
 .logos-slide img {
