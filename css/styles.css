@@ -40,6 +40,10 @@ section {
   align-items: center;
 }
 
+.lang-selection {
+  width: 4vh;
+}
+
 .button-18 {
   align-items: center;
   border: 0;
@@ -107,7 +111,7 @@ header {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 3vh 4vw 3vh 4vw;
+  padding: 3vh 4vw;
 }
 
 .logo {
