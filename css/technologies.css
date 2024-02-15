@@ -5,6 +5,7 @@
 
 .logos {
   width: 100vw;
+  overflow-x: hidden; /* Hide horizontal overflow */
 }
 
 @keyframes slide {
@@ -12,7 +13,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(calc(-100% - 4vh));
   }
 }
 
@@ -51,6 +52,7 @@
 .logos-slide {
   display: inline-block;
   animation: 35s slide infinite linear;
+  white-space: nowrap;
 }
 
 .logos-slide img {
