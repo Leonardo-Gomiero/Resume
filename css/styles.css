@@ -478,4 +478,8 @@ footer h3 {
   .language-selected {
     margin-left: 15vw;
   }
+
+  .language ul li a {
+    font-size: 3vw;
+  }
 }
