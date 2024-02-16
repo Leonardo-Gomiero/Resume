@@ -260,6 +260,7 @@ header {
 
 .mobile-menu-icon {
   display: none;
+  margin: auto 0;
 }
 
 .mobile-menu {
@@ -472,5 +473,9 @@ footer h3 {
 
   .language li {
     margin-top: 1vh;
+  }
+
+  .language-selected {
+    margin-left: 15vw;
   }
 }
