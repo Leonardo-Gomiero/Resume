@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.br').forEach(item => {
         item.addEventListener('click', function () {
             
+            $("#lang-list").removeClass("disBlock");
+            $("#lang-list").addClass("hidden");
+
             //menu
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("Sobre");
             $(".nav-list").find(".nav-item").eq(1).find(".nav-link").text("Habilidades");
@@ -116,6 +119,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.es').forEach(item => {
         item.addEventListener('click', function () {
+            
+            $("#lang-list").removeClass("disBlock");
+            $("#lang-list").addClass("hidden");
+
             //menu
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("Sobre");
             $(".nav-list").find(".nav-item").eq(1).find(".nav-link").text("Habilidades");
@@ -229,7 +236,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.en').forEach(item => {
         item.addEventListener('click', function () {
+            
+            $("#lang-list").removeClass("disBlock");
+            $("#lang-list").addClass("hidden");
 
+            //resume
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("About");
             $(".nav-list").find(".nav-item").eq(1).find(".nav-link").text("Skills");
             $(".nav-list").find(".nav-item").eq(2).find(".nav-link").text("Certificates");
@@ -336,7 +347,14 @@ document.addEventListener('DOMContentLoaded', function () {
             //footer
             $("#txt52").text("Software Developer");
             $("#txt53").text("My passion transfigured into code.");
-
         });
     });
+
+    document.querySelectorAll('.language-selected').forEach(item => {
+        item.addEventListener('click', function () {
+            $("#lang-list").removeClass("hidden");
+            $("#lang-list").addClass("disBlock");
+        });
+    });
+
 });

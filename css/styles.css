@@ -64,7 +64,11 @@ html {
   display: none;
 }
 
-.language:hover ul {
+.nav-list .language .hidden {
+  display: none;
+}
+
+.nav-list .language .disBlock {
   display: block;
 }
 
