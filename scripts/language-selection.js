@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt1").text("Eu sou");
             $("#txt2").text("Desenvolvedor de Software");
             $("#txt3").text("IDADE");
-            $("#txt4").text("ENDERECO");
+            $("#txt4").text("ENDEREÇO");
             $("#txt5").text("São Bernardo do Campo, SP - Brasil");
             $("#txt6").text("TELEFONE");
 
