@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".mobile-menu").find(".nav-item").eq(6).find(".nav-link").text("Contato");
 
             //menu language icon
-            $(".language-selected").text("pt-BR");
             $(".language-selected").addClass("change-br");
             $(".language-selected").removeClass("change-es");
             $(".language-selected").removeClass("change-en");
@@ -136,7 +135,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".mobile-menu").find(".nav-item").eq(6).find(".nav-link").text("Contacto");
 
             //menu language icon
-            $(".language-selected").text("es-ES");
             $(".language-selected").addClass("change-es");
             $(".language-selected").removeClass("change-en");
             $(".language-selected").removeClass("change-br");
@@ -250,7 +248,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".mobile-menu").find(".nav-item").eq(6).find(".nav-link").text("Contact");
 
             //menu language icon
-            $(".language-selected").text("en-US");
             $(".language-selected").addClass("change-en");
             $(".language-selected").removeClass("change-es");
             $(".language-selected").removeClass("change-br");
