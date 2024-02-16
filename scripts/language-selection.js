@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.br').forEach(item => {
         item.addEventListener('click', function () {
             
-            $("#lang-list").removeClass("disBlock");
-            $("#lang-list").addClass("hidden");
+            $("#lang-list").toggleClass("hidden disBlock");
 
             //menu
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("Sobre");
@@ -28,9 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".language-selected").addClass("change-br");
             $(".language-selected").removeClass("change-es");
             $(".language-selected").removeClass("change-en");
-            $("#txt00").text("Português");
-            $("#txt01").text("Inglês");
-            $("#txt02").text("Espanhol");
 
             //section "about"
             $("#txt1").text("Eu sou");
@@ -120,8 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.es').forEach(item => {
         item.addEventListener('click', function () {
             
-            $("#lang-list").removeClass("disBlock");
-            $("#lang-list").addClass("hidden");
+            $("#lang-list").toggleClass("hidden disBlock");
 
             //menu
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("Sobre");
@@ -145,9 +140,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".language-selected").addClass("change-es");
             $(".language-selected").removeClass("change-en");
             $(".language-selected").removeClass("change-br");
-            $("#txt00").text("Portugués");
-            $("#txt01").text("Inglés");
-            $("#txt02").text("Español");
 
             //section "about"
             $("#txt1").text("Yo soy");
@@ -237,8 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.en').forEach(item => {
         item.addEventListener('click', function () {
             
-            $("#lang-list").removeClass("disBlock");
-            $("#lang-list").addClass("hidden");
+            $("#lang-list").toggleClass("hidden disBlock");
 
             //resume
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("About");
@@ -262,9 +253,6 @@ document.addEventListener('DOMContentLoaded', function () {
             $(".language-selected").addClass("change-en");
             $(".language-selected").removeClass("change-es");
             $(".language-selected").removeClass("change-br");
-            $("#txt00").text("Portuguese");
-            $("#txt01").text("English");
-            $("#txt02").text("Spanish");
 
             //section "about"
             $("#txt1").text("I'm");
@@ -352,8 +340,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.language-selected').forEach(item => {
         item.addEventListener('click', function () {
-            $("#lang-list").removeClass("hidden");
-            $("#lang-list").addClass("disBlock");
+            $("#lang-list").toggleClass("hidden disBlock");
         });
     });
 

@@ -56,12 +56,22 @@ html {
 
 .nav-list .language ul {
   position: absolute;
-  width: 10vw;
+  width: 4vw;
   background-color: #24252a;
   padding-top: 10px;
-  height: 9vh;
+  height: 130px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
   display: none;
+}
+
+.nav-list .language:hover ul{
+  z-index: 999;
+  position: absolute;
+}
+
+.act-1 {
+  z-index: 1;
+  position: relative;
 }
 
 .nav-list .language .hidden {
@@ -74,6 +84,10 @@ html {
 
 .language ul li {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 
 .language ul li a {
@@ -89,12 +103,11 @@ html {
 .language ul li a:before {
   content: "";
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
-  margin-right: 10px;
 }
 
 a.br:before {
@@ -464,15 +477,9 @@ footer h3 {
   }
 
   .nav-list .language ul {
-    width: 30vw;
+    width: 10vw;
+    margin-left: 15vw;
     height: auto;
-  }
-
-  .language:hover ul {
-    display: block;
-    z-index: 9999999;
-    position: relative;
-    box-shadow: none;
   }
 
   .language li {
@@ -481,6 +488,8 @@ footer h3 {
 
   .language-selected {
     margin-left: 15vw;
+    min-width: 15vw;
+    width: 30px;
   }
 
   .language ul li a {

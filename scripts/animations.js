@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
 
-        addAnimationFromBelow("act-1");
         addAnimationFromBelow("intro");
         addAnimationFromBelow("interests");
         addAnimationFromBelow("skills-bars");

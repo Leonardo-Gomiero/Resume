@@ -42,10 +42,12 @@
     }
 }
 
+/*
 header {
     animation: fromAbove 1s forwards;
     opacity: 0;
 }
+*/
 
 .act-1 {
     animation: fromBelow 1s forwards;
