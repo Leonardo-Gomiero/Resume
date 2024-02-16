@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    
+
     document.querySelectorAll('.br').forEach(item => {
         item.addEventListener('click', function () {
-
             
             //menu
             $(".nav-list").find(".nav-item").eq(0).find(".nav-link").text("Sobre");
