@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt39").text("Estudei italiano por três anos e estou motivado a continuar devido aos membros da família italianos.");
 
             //section "testimonials"
-            $("#txt40").text("Italiano");
+            $("#txt40").text("Referências");
             $("#txt41").text("Desenvolvedor de Pegasystems na Accenture | PCSA | PCBA");
             $("#txt42").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
             $("#txt43").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt39").text("He estudiado italiano durante tres años y estoy motivado para continuar debido a los miembros de mi familia italianos.");
 
             //section "testimonials"
-            $("#txt40").text("Italiano");
+            $("#txt40").text("Referencias");
             $("#txt41").text("Desarrollador de Pegasystems en Accenture | PCSA | PCBA");
             $("#txt42").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
             $("#txt43").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt39").text("I've studied Italian for three years and am motivated to continue due to Italian family members.");
 
             //section "testimonials"
-            $("#txt40").text("Italian");
+            $("#txt40").text("References");
             $("#txt41").text("Pegasystems Developer At Accenture | PCSA | PCBA");
             $("#txt42").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
             $("#txt43").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
