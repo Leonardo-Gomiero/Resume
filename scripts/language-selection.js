@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+    function changeLanguage(lang) {
+        var htmlElement = document.querySelector('html');
+        htmlElement.setAttribute('lang', lang);
+    }
+
     document.querySelectorAll('.br').forEach(item => {
         item.addEventListener('click', function () {
-            
+
+            changeLanguage('pt');
             $("#lang-list").toggleClass("hidden disBlock");
 
             //menu
@@ -115,7 +121,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.es').forEach(item => {
         item.addEventListener('click', function () {
-            
+
+            changeLanguage('es');
             $("#lang-list").toggleClass("hidden disBlock");
 
             //menu
@@ -228,7 +235,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.en').forEach(item => {
         item.addEventListener('click', function () {
-            
+
+            changeLanguage('en');
             $("#lang-list").toggleClass("hidden disBlock");
 
             //resume
