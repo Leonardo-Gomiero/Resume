@@ -308,7 +308,6 @@ footer {
 .footer-content h3 {
   font-size: 3.5vh;
   font-weight: 400;
-  text-transform: capitalize;
   line-height: 3rem;
   margin: 0;
 }
