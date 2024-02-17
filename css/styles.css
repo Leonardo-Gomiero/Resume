@@ -136,9 +136,9 @@ h5 {
 }
 
 h1 {
-  font-size: 5vh;
+  font-size: 250%;
   text-align: center;
-  margin: 2vh 0 2vh 0;
+  margin: 7vh 0 3vh 0;
   width: 100%;
 }
 
@@ -205,7 +205,7 @@ button a {
 
 a {
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 150%;
 }
 
 .button-18:disabled {
