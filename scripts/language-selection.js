@@ -84,8 +84,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt31").text("Desenvolvedor de Software");
 
             //section "languages"
+            $("#txtLang").text("Idiomas");
             $("#txt32").text("Inglês");
-            $("#txt33").text("Tenho orgulho de possuir um Certificado em Inglês Avançado, credenciado pela Cambridge, o que atesta minha proficiência no idioma.");
+            if (document.getElementById('txt33')) {
+                txt33.innerHTML = 'Tenho orgulho de possuir um <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado em Inglês Avançado (CAE)</b>, credenciado pela <i>Cambridge</i>, o que atesta minha proficiência no idioma.';
+            }
             $("#txt34").text("Português");
             $("#txt35").text("Como cidadão brasileiro, o português é minha língua nativa.");
             $("#txt36").text("Espanhol");
@@ -199,8 +202,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt31").text("Desarrollador de Software");
 
             //section "languages"
+            $("#txtLang").text("Idiomas");
             $("#txt32").text("Inglés");
-            $("#txt33").text("Me enorgullezco de tener un Certificado en Inglés Avanzado, acreditado por Cambridge, que demuestra mi competencia en el idioma.");
+            if (document.getElementById('txt33')) {
+                txt33.innerHTML = 'Me enorgullezco de tener un <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado en Inglés Avanzado (CAE)</b>, acreditado por <i>Cambridge</i>, que demuestra mi competencia en el idioma.';
+            }
             $("#txt34").text("Portugués");
             $("#txt35").text("Como ciudadano brasileño, el portugués es mi lengua materna.");
             $("#txt36").text("Español");
@@ -314,8 +320,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt31").text("Software Developer");
 
             //section "languages"
+            $("#txtLang").text("Languages");
             $("#txt32").text("English");
-            $("#txt33").text("I am proud to hold a Certificate in Advanced English accredited by Cambridge, which serves as a testament to my proficiency in the language.");
+            if (document.getElementById('txt33')) {
+                txt33.innerHTML = 'I am proud to hold a <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificate in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to my proficiency in the language.';
+            }            
             $("#txt34").text("Portuguese");
             $("#txt35").text("As a Brazilian citizen, Portuguese is my native language.");
             $("#txt36").text("Spanish");
