@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Baixar CV");
+            document.getElementById('txt7').href = './assets/Curriculo - Leonardo Gomiero C Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia, e eu sou um desenvolvedor de software web. Eu tenho trabalhado nesse campo por dois anos, adquirindo experiência em várias empresas onde pude aprimorar minhas habilidades técnicas em JavaScript, HTML, CSS, SQL e mais. No meu papel, aprendi a traduzir as necessidades do cliente em soluções de software, focando em feedback periódico e prestando muita atenção aos detalhes.");
@@ -158,6 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Descargar CV");
+            document.getElementById('txt7').href = './assets/Resume - Leonardo Gomiero C Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia, y soy un desarrollador de software web. He estado trabajando en este campo durante dos años, adquiriendo experiencia en varias empresas donde pude mejorar mis habilidades técnicas en JavaScript, HTML, CSS, SQL y más. En mi rol, he aprendido a traducir las necesidades del cliente en soluciones de software, centrándome en la retroalimentación periódica y prestando mucha atención a los detalles.");
@@ -272,6 +274,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Download CV");
+            document.getElementById('txt7').href = './assets/Resume - Leonardo Gomiero C Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in JavaScript, HTML, CSS, SQL, and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.");
