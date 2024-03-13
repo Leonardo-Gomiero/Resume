@@ -17,6 +17,10 @@ html {
   display: none;
 }
 
+.image {
+  aspect-ratio: 16/16;
+}
+
 .language {
   position: relative;
   width: 120px;
