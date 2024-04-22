@@ -65,60 +65,62 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt14").text("Meus Certificados");
             $("#txt15").text("A insígnia AWS Cloud Practitioner é uma certificação de nível básico da Amazon Web Services. Ela valida conhecimentos básicos dos serviços de nuvem da AWS, modelos de precificação e segurança.");
             $("#txt16").text("Verificar insígnia");
-            $("#txt17").text("A certificação Fundamentos de IA da Microsoft (AI-900) é um exame de certificação da Microsoft Azure que abrange conceitos fundamentais de inteligência artificial (IA) e sua aplicação no Azure. Destina-se a indivíduos que buscam conhecimentos básicos em tecnologias de IA na plataforma Azure.");
+            $("#txt17").text("A certificação Fundamentos do Azure (AZ-900) apresenta conceitos fundamentais de computação em nuvem e serviços do Microsoft Azure. Ela valida o conhecimento básico dos serviços em nuvem e como eles são fornecidos pelo Azure.");
             $("#txt18").text("Verificar insígnia");
-            $("#txt19").text("A certificação Fundamentos de Dados do Microsoft Azure (DP-900) sinaliza uma base sólida em conceitos-chave de dados para o Azure. Ela demonstra proficiência no manuseio de diversos tipos de dados, conhecimento das cargas de trabalho de dados e familiaridade com os serviços do Azure.");
+            $("#txt19").text("A certificação Fundamentos de IA da Microsoft (AI-900) é um exame de certificação da Microsoft Azure que abrange conceitos fundamentais de inteligência artificial (IA) e sua aplicação no Azure. Destina-se a indivíduos que buscam conhecimentos básicos em tecnologias de IA na plataforma Azure.");
             $("#txt20").text("Verificar insígnia");
-            $("#txt21").text("Essas 11 insígnias abrangem tarefas fundamentais, gerenciamento de recursos em nuvem, redes e fundamentos de computação em nuvem. Notavelmente, as conquistas em Fundamentos do GCP destacam um entendimento sólido de infraestrutura, segurança e redes.");
-            $("#txt22").text("Verificar insígnias");
+            $("#txt21").text("A certificação Fundamentos de Dados do Microsoft Azure (DP-900) sinaliza uma base sólida em conceitos-chave de dados para o Azure. Ela demonstra proficiência no manuseio de diversos tipos de dados, conhecimento das cargas de trabalho de dados e familiaridade com os serviços do Azure.");
+            $("#txt22").text("Verificar insígnia");
+            $("#txt23").text("Essas 11 insígnias abrangem tarefas fundamentais, gerenciamento de recursos em nuvem, redes e fundamentos de computação em nuvem. Notavelmente, as conquistas em Fundamentos do GCP destacam um entendimento sólido de infraestrutura, segurança e redes.");
+            $("#txt24").text("Verificar insígnias");
 
             //section "background"
-            $("#txt23").text("Educação");
-            $("#txt24").text("Engenharia da Computação");
-            $("#txt25").text("Tecnologia em Análise e Desenvolvimento de Sistemas");
-            $("#txt26").text("Técnico em Mecatrônica");
-            $("#txt27").text("Experiência");
-            $("#txt28").text("2023 - agora");
-            $("#txt29").text("Analista de Transformação Digital");
-            $("#txt30").text("Analista em Engenharia de Controle");
-            $("#txt31").text("Desenvolvedor de Software");
+            $("#txt25").text("Educação");
+            $("#txt26").text("Engenharia da Computação");
+            $("#txt27").text("Tecnologia em Análise e Desenvolvimento de Sistemas");
+            $("#txt28").text("Técnico em Mecatrônica");
+            $("#txt29").text("Experiência");
+            $("#txt30").text("2023 - agora");
+            $("#txt31").text("Analista de Transformação Digital");
+            $("#txt32").text("Analista em Engenharia de Controle");
+            $("#txt33").text("Desenvolvedor de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
-            $("#txt32").text("Inglês");
-            if (document.getElementById('txt33')) {
-                txt33.innerHTML = 'Tenho orgulho de possuir um <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado em Inglês Avançado (CAE)</b>, credenciado pela <i>Cambridge</i>, o que atesta minha proficiência no idioma.';
+            $("#txt34").text("Inglês");
+            if (document.getElementById('txt35')) {
+                txt35.innerHTML = 'Tenho orgulho de possuir um <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado em Inglês Avançado (CAE)</b>, credenciado pela <i>Cambridge</i>, o que atesta minha proficiência no idioma.';
             }
-            $("#txt34").text("Português");
-            $("#txt35").text("Como cidadão brasileiro, o português é minha língua nativa.");
-            $("#txt36").text("Espanhol");
-            $("#txt37").text("Atualmente, estou envolvido no estudo do espanhol, tendo alcançado um nível de proficiência próximo ao B1. Isso significa que sou capaz de me comunicar de forma eficaz em situações básicas de linguagem.");
-            $("#txt38").text("Italiano");
-            $("#txt39").text("Estudei italiano por três anos e estou motivado a continuar devido aos membros da família italianos.");
+            $("#txt36").text("Português");
+            $("#txt37").text("Como cidadão brasileiro, o português é minha língua nativa.");
+            $("#txt38").text("Espanhol");
+            $("#txt39").text("Atualmente, estou envolvido no estudo do espanhol, tendo alcançado um nível de proficiência próximo ao B1. Isso significa que sou capaz de me comunicar de forma eficaz em situações básicas de linguagem.");
+            $("#txt40").text("Italiano");
+            $("#txt41").text("Estudei italiano por três anos e estou motivado a continuar devido aos membros da família italianos.");
 
             //section "testimonials"
-            $("#txt40").text("Referências");
-            $("#txt41").text("Desenvolvedor de Pegasystems na Accenture | PCSA | PCBA");
-            $("#txt42").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
-            $("#txt43").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
-            $("#txt44").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
-            $("#txt45").text("Instrutor no SENAI (Serviço Nacional de Aprendizagem Industrial)");
-            $("#txt46").text("Leonardo é inteligente, dedicado, demonstra ter propósito de vida e carreira.");
+            $("#txt42").text("Referências");
+            $("#txt43").text("Desenvolvedor de Pegasystems na Accenture | PCSA | PCBA");
+            $("#txt44").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
+            $("#txt45").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
+            $("#txt46").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
+            $("#txt47").text("Instrutor no SENAI (Serviço Nacional de Aprendizagem Industrial)");
+            $("#txt48").text("Leonardo é inteligente, dedicado, demonstra ter propósito de vida e carreira.");
 
             //section "contact"
-            $("#txt47").text("Me contate");
-            $("#txt48").text("Sinta-se livre para me contatar");
+            $("#txt49").text("Me contate");
+            $("#txt50").text("Sinta-se livre para me contatar");
             $("#name").attr('placeholder', 'Nome');
             $("#subject").attr('placeholder', 'Assunto');
             $("#message").attr('placeholder', 'Mensagem');
             $("#form-button").text("Enviar");
-            $("#txt49").text("ENDEREÇO");
-            $("#txt50").text("São Bernardo do Campo, SP - Brasil");
-            $("#txt51").text("TELEFONE");
+            $("#txt51").text("ENDEREÇO");
+            $("#txt52").text("São Bernardo do Campo, SP - Brasil");
+            $("#txt53").text("TELEFONE");
 
             //footer
-            $("#txt52").text("Desenvolvedor de Software");
-            $("#txt53").text("Minha paixão transfigurada em código.");
+            $("#txt54").text("Desenvolvedor de Software");
+            $("#txt55").text("Minha paixão transfigurada em código.");
 
         });
     });
@@ -183,60 +185,62 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt14").text("Mis Certificados");
             $("#txt15").text("La insignia AWS Cloud Practitioner es una certificación de nivel básico de Amazon Web Services. Valida el conocimiento básico de los servicios en la nube de AWS, modelos de precios y seguridad.");
             $("#txt16").text("Verificar insignia");
-            $("#txt17").text("La certificación Fundamentos de IA de Microsoft (AI-900) es un examen de certificación de Microsoft Azure que cubre conceptos fundamentales de inteligencia artificial (IA) y su aplicación en Azure. Está dirigido a personas que buscan conocimientos básicos en tecnologías de IA en la plataforma Azure.");
+            $("#txt17").text("La certificación Fundamentos de Azure (AZ-900) introduce conceptos fundamentales de la nube y servicios de Microsoft Azure. Valida el conocimiento básico de los servicios en la nube y cómo se proporcionan con Azure.");
             $("#txt18").text("Verificar insignia");
-            $("#txt19").text("La certificación Fundamentos de Datos de Microsoft Azure (DP-900) señala una base sólida en conceptos clave de datos para Azure. Demuestra competencia en el manejo de diversos tipos de datos, conocimiento de cargas de trabajo de datos y familiaridad con los servicios de Azure.");
+            $("#txt19").text("La certificación Fundamentos de IA de Microsoft (AI-900) es un examen de certificación de Microsoft Azure que cubre conceptos fundamentales de inteligencia artificial (IA) y su aplicación en Azure. Está dirigido a personas que buscan conocimientos básicos en tecnologías de IA en la plataforma Azure.");
             $("#txt20").text("Verificar insignia");
-            $("#txt21").text("Estas 11 insignias cubren tareas fundamentales, gestión de recursos en la nube, redes y fundamentos de la informática en la nube. Especialmente, los logros en Fundamentos de GCP destacan una comprensión sólida de infraestructura, seguridad y redes.");
-            $("#txt22").text("Verificar insignias");
+            $("#txt21").text("La certificación Fundamentos de Datos de Microsoft Azure (DP-900) señala una base sólida en conceptos clave de datos para Azure. Demuestra competencia en el manejo de diversos tipos de datos, conocimiento de cargas de trabajo de datos y familiaridad con los servicios de Azure.");
+            $("#txt22").text("Verificar insignia");
+            $("#txt23").text("Estas 11 insignias cubren tareas fundamentales, gestión de recursos en la nube, redes y fundamentos de la informática en la nube. Especialmente, los logros en Fundamentos de GCP destacan una comprensión sólida de infraestructura, seguridad y redes.");
+            $("#txt24").text("Verificar insignias");
 
             //section "background"
-            $("#txt23").text("Educación");
-            $("#txt24").text("Ingeniería Informática");
-            $("#txt25").text("Tecnología en Análisis y Desarrollo de Sistemas");
-            $("#txt26").text("Técnico en Mecatrónica");
-            $("#txt27").text("Experiencia");
-            $("#txt28").text("2023 - Presente");
-            $("#txt29").text("Analista de Transformación Digital");
-            $("#txt30").text("Analista en Ingeniería de Control");
-            $("#txt31").text("Desarrollador de Software");
+            $("#txt25").text("Educación");
+            $("#txt26").text("Ingeniería Informática");
+            $("#txt27").text("Tecnología en Análisis y Desarrollo de Sistemas");
+            $("#txt28").text("Técnico en Mecatrónica");
+            $("#txt29").text("Experiencia");
+            $("#txt30").text("2023 - Presente");
+            $("#txt31").text("Analista de Transformación Digital");
+            $("#txt32").text("Analista en Ingeniería de Control");
+            $("#txt33").text("Desarrollador de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
-            $("#txt32").text("Inglés");
-            if (document.getElementById('txt33')) {
-                txt33.innerHTML = 'Me enorgullezco de tener un <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado en Inglés Avanzado (CAE)</b>, acreditado por <i>Cambridge</i>, que demuestra mi competencia en el idioma.';
+            $("#txt34").text("Inglés");
+            if (document.getElementById('txt35')) {
+                txt35.innerHTML = 'Me enorgullezco de tener un <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado en Inglés Avanzado (CAE)</b>, acreditado por <i>Cambridge</i>, que demuestra mi competencia en el idioma.';
             }
-            $("#txt34").text("Portugués");
-            $("#txt35").text("Como ciudadano brasileño, el portugués es mi lengua materna.");
-            $("#txt36").text("Español");
-            $("#txt37").text("Actualmente, estoy estudiando español y he alcanzado un nivel de competencia cercano a B1. Esto significa que soy capaz de comunicarme eficazmente en situaciones básicas de lenguaje.");
-            $("#txt38").text("Italiano");
-            $("#txt39").text("He estudiado italiano durante tres años y estoy motivado para continuar debido a los miembros de mi familia italianos.");
+            $("#txt36").text("Portugués");
+            $("#txt37").text("Como ciudadano brasileño, el portugués es mi lengua materna.");
+            $("#txt38").text("Español");
+            $("#txt39").text("Actualmente, estoy estudiando español y he alcanzado un nivel de competencia cercano a B1. Esto significa que soy capaz de comunicarme eficazmente en situaciones básicas de lenguaje.");
+            $("#txt40").text("Italiano");
+            $("#txt41").text("He estudiado italiano durante tres años y estoy motivado para continuar debido a los miembros de mi familia italianos.");
 
             //section "testimonials"
-            $("#txt40").text("Referencias");
-            $("#txt41").text("Desarrollador de Pegasystems en Accenture | PCSA | PCBA");
-            $("#txt42").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
-            $("#txt43").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
-            $("#txt44").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
-            $("#txt45").text("Instructor en SENAI (Servicio Nacional de Aprendizaje Industrial)");
-            $("#txt46").text("Leonardo es inteligente, dedicado, muestra un propósito de vida y carrera.");
+            $("#txt42").text("Referencias");
+            $("#txt43").text("Desarrollador de Pegasystems en Accenture | PCSA | PCBA");
+            $("#txt44").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
+            $("#txt45").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
+            $("#txt46").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
+            $("#txt47").text("Instructor en SENAI (Servicio Nacional de Aprendizaje Industrial)");
+            $("#txt48").text("Leonardo es inteligente, dedicado, muestra un propósito de vida y carrera.");
 
             //section "contact"
-            $("#txt47").text("Contáctame");
-            $("#txt48").text("No dudes en contactarme");
+            $("#txt49").text("Contáctame");
+            $("#txt50").text("No dudes en contactarme");
             $("#name").attr('placeholder', 'Nombre');
             $("#subject").attr('placeholder', 'Asunto');
             $("#message").attr('placeholder', 'Mensaje');
             $("#form-button").text("Enviar");
-            $("#txt49").text("DIRECCIÓN");
-            $("#txt50").text("São Bernardo do Campo, SP - Brasil");
-            $("#txt51").text("TELÉFONO");
+            $("#txt51").text("DIRECCIÓN");
+            $("#txt52").text("São Bernardo do Campo, SP - Brasil");
+            $("#txt53").text("TELÉFONO");
 
             //footer
-            $("#txt52").text("Desarrollador de Software");
-            $("#txt53").text("Mi pasión transformada en código.");
+            $("#txt54").text("Desarrollador de Software");
+            $("#txt55").text("Mi pasión transformada en código.");
 
         });
     });
@@ -301,60 +305,62 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt14").text("My Certificates");
             $("#txt15").text("The AWS Cloud Practitioner badge is an entry-level certification from Amazon Web Services. It validates basic knowledge of AWS Cloud services, pricing models, and security.");
             $("#txt16").text("Verify badge");
-            $("#txt17").text("The Microsoft AI Fundamentals certificationThe (AI-900) is a Microsoft Azure certification exam covering fundamental concepts of artificial intelligence (AI) and its application on Azure. It's for individuals seeking basic knowledge in AI technologies on the Azure platform.");
+            $("#txt17").text("The Azure Fundamentals certification (AZ-900) introduces foundational cloud concepts and Microsoft Azure services. It validates basic knowledge of cloud services and how they are provided with Azure.");
             $("#txt18").text("Verify badge");
-            $("#txt19").text("The Microsoft Azure Data Fundamentals certification (DP-900) signals a solid foundation in key data concepts for Azure. It demonstrates proficiency in handling diverse data types, knowledge of data workloads, and familiarity with Azure services.");
+            $("#txt19").text("The Microsoft AI Fundamentals certificationThe (AI-900) is a Microsoft Azure certification exam covering fundamental concepts of artificial intelligence (AI) and its application on Azure. It's for individuals seeking basic knowledge in AI technologies on the Azure platform.");
             $("#txt20").text("Verify badge");
-            $("#txt21").text("These 11 badges cover foundational tasks, cloud resource management, networking, and cloud computing fundamentals. Notably, achievements in GCP Foundations highlight a solid understanding of infrastructure, security, and networking.");
-            $("#txt22").text("Verify badges");
+            $("#txt21").text("The Microsoft Azure Data Fundamentals certification (DP-900) signals a solid foundation in key data concepts for Azure. It demonstrates proficiency in handling diverse data types, knowledge of data workloads, and familiarity with Azure services.");
+            $("#txt22").text("Verify badge");
+            $("#txt23").text("These 11 badges cover foundational tasks, cloud resource management, networking, and cloud computing fundamentals. Notably, achievements in GCP Foundations highlight a solid understanding of infrastructure, security, and networking.");
+            $("#txt24").text("Verify badges");
 
             //section "background"
-            $("#txt23").text("Education");
-            $("#txt24").text("Bachelor's Dergree in Computer Engineering");
-            $("#txt25").text("Associate Dergree in Systems Analysis and Development");
-            $("#txt26").text("Technical Degree in Mechatronics");
-            $("#txt27").text("Experience");
-            $("#txt28").text("2023 - now");
-            $("#txt29").text("Digital Transformation Analyst");
-            $("#txt30").text("Controls Engineering Analyst");
-            $("#txt31").text("Software Developer");
+            $("#txt25").text("Education");
+            $("#txt26").text("Bachelor's Dergree in Computer Engineering");
+            $("#txt27").text("Associate Dergree in Systems Analysis and Development");
+            $("#txt28").text("Technical Degree in Mechatronics");
+            $("#txt29").text("Experience");
+            $("#txt30").text("2023 - now");
+            $("#txt31").text("Digital Transformation Analyst");
+            $("#txt32").text("Controls Engineering Analyst");
+            $("#txt33").text("Software Developer");
 
             //section "languages"
             $("#txtLang").text("Languages");
-            $("#txt32").text("English");
-            if (document.getElementById('txt33')) {
-                txt33.innerHTML = 'I am proud to hold a <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificate in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to my proficiency in the language.';
+            $("#txt34").text("English");
+            if (document.getElementById('txt35')) {
+                txt35.innerHTML = 'I am proud to hold a <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificate in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to my proficiency in the language.';
             }            
-            $("#txt34").text("Portuguese");
-            $("#txt35").text("As a Brazilian citizen, Portuguese is my native language.");
-            $("#txt36").text("Spanish");
-            $("#txt37").text("I am presently engaged in the study of Spanish, having reached a proficiency level approaching B1. This signifies that I am capable of communicating effectively in basic language situations.");
-            $("#txt38").text("Italian");
-            $("#txt39").text("I've studied Italian for three years and am motivated to continue due to Italian family members.");
+            $("#txt36").text("Portuguese");
+            $("#txt37").text("As a Brazilian citizen, Portuguese is my native language.");
+            $("#txt38").text("Spanish");
+            $("#txt39").text("I am presently engaged in the study of Spanish, having reached a proficiency level approaching B1. This signifies that I am capable of communicating effectively in basic language situations.");
+            $("#txt40").text("Italian");
+            $("#txt41").text("I've studied Italian for three years and am motivated to continue due to Italian family members.");
 
             //section "testimonials"
-            $("#txt40").text("References");
-            $("#txt41").text("Pegasystems Developer At Accenture | PCSA | PCBA");
-            $("#txt42").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
-            $("#txt43").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
-            $("#txt44").text("Leo was a very kind and dedicated student, both towards his peers and teachers. He was responsible in his tasks and deeply committed and proactive. He is a very cultured and intelligent person, reflecting on proposed issues and seeking to mediate all kinds of debates with coherent arguments.<br> It is a true pride to be able to recommend him as a professional and, above all, as a person.");
-            $("#txt45").text("Instructor at SENAI (National Service for Industrial Learning)");
-            $("#txt46").text("Leonardo is intelligent, dedicated, shows purpose in life and career.");
+            $("#txt42").text("References");
+            $("#txt43").text("Pegasystems Developer At Accenture | PCSA | PCBA");
+            $("#txt44").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
+            $("#txt45").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
+            $("#txt46").text("Leo was a very kind and dedicated student, both towards his peers and teachers. He was responsible in his tasks and deeply committed and proactive. He is a very cultured and intelligent person, reflecting on proposed issues and seeking to mediate all kinds of debates with coherent arguments.<br> It is a true pride to be able to recommend him as a professional and, above all, as a person.");
+            $("#txt47").text("Instructor at SENAI (National Service for Industrial Learning)");
+            $("#txt48").text("Leonardo is intelligent, dedicated, shows purpose in life and career.");
 
             //section "contact"
-            $("#txt47").text("Contact Me");
-            $("#txt48").text("Feel free to contact me");
+            $("#txt49").text("Contact Me");
+            $("#txt50").text("Feel free to contact me");
             $("#name").attr('placeholder', 'Name');
             $("#subject").attr('placeholder', 'Subject');
             $("#message").attr('placeholder', 'Message');
             $("#form-button").text("Send");
-            $("#txt49").text("ADDRESS");
-            $("#txt50").text("São Bernardo do Campo, SP - Brazil");
-            $("#txt51").text("PHONE");
+            $("#txt51").text("ADDRESS");
+            $("#txt52").text("São Bernardo do Campo, SP - Brazil");
+            $("#txt53").text("PHONE");
 
             //footer
-            $("#txt52").text("Software Developer");
-            $("#txt53").text("My passion transfigured into code.");
+            $("#txt54").text("Software Developer");
+            $("#txt55").text("My passion transfigured into code.");
         });
     });
 
