@@ -81,11 +81,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt28").text("Técnico em Mecatrônica");
             $("#txt29").text("Experiência");
             $("#txt30").text("2024 - agora");
-            $("#txt31").text("Desenvolvedor de Software");
+            $("#txt31").text("Desenvolvedor de Software Jr.");
             $("#txt32").text("Instituto SENAI de Tecnologia");
-            $("#txt33").text("Analista de Transformação Digital");
-            $("#txt34").text("Analista em Engenharia de Controle");
-            $("#txt35").text("Desenvolvedor de Software");
+            $("#txt33").text("Estagiário de Transformação Digital");
+            $("#txt34").text("Estagiário em Engenharia de Controle");
+            $("#txt35").text("Estagiário em Desenvolvimento de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
@@ -203,11 +203,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt28").text("Técnico en Mecatrónica");
             $("#txt29").text("Experiencia");
             $("#txt30").text("2024 - ahora");
-            $("#txt31").text("Desarrollador de Software");
+            $("#txt31").text("Desarrollador de Software Jr.);
             $("#txt32").text("Instituto SENAI de Tecnología");
-            $("#txt33").text("Analista de Transformación Digital");
-            $("#txt34").text("Analista en Ingeniería de Control");
-            $("#txt35").text("Desarrollador de Software");
+            $("#txt33").text("Pasante de Transformación Digital");
+            $("#txt34").text("Pasante en Ingeniería de Control");
+            $("#txt35").text("Pasante en Desarrollo de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
@@ -325,11 +325,11 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt28").text("Technical Degree in Mechatronics");
             $("#txt29").text("Experience");
             $("#txt30").text("2024 - now");
-            $("#txt31").text("Software Developer");
+            $("#txt31").text("Jr. Software Developer");
             $("#txt32").text("SENAI Institue of Technology");
-            $("#txt33").text("Digital Transformation Analyst");
-            $("#txt34").text("Controls Engineering Analyst");
-            $("#txt35").text("Software Developer");
+            $("#txt33").text("Digital Transformation Interr");
+            $("#txt34").text("Controls Engineering Intern");
+            $("#txt35").text("Software Development Intern");
 
             //section "languages"
             $("#txtLang").text("Languages");
