@@ -23,7 +23,7 @@ open index.html
 ```
 ## Usage
 
-View Resume: Simply open the index.html file in any web browser to view the resume.
+View Resume: Simply open the [Live Demo](https://leonardo-gomiero.github.io/Resume/) in any web browser to view the resume.
 
 
 ## Features
