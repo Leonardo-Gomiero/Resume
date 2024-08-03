@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt28").text("Técnico en Mecatrónica");
             $("#txt29").text("Experiencia");
             $("#txt30").text("2024 - ahora");
-            $("#txt31").text("Desarrollador de Software Jr.);
+            $("#txt31").text("Desarrollador de Software Jr.");
             $("#txt32").text("Instituto SENAI de Tecnología");
             $("#txt33").text("Pasante de Transformación Digital");
             $("#txt34").text("Pasante en Ingeniería de Control");
