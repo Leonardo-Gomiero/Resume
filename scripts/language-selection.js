@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt30").text("2024 - now");
             $("#txt31").text("Jr. Software Developer");
             $("#txt32").text("SENAI Institue of Technology");
-            $("#txt33").text("Digital Transformation Interr");
+            $("#txt33").text("Digital Transformation Intern");
             $("#txt34").text("Controls Engineering Intern");
             $("#txt35").text("Software Development Intern");
 
