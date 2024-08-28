@@ -75,14 +75,15 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt24").text("Verificar insígnias");
 
             //section "background"
-            $("#txt25").text("Educação");
-            $("#txt26").text("Engenharia da Computação");
-            $("#txt27").text("Tecnologia em Análise e Desenvolvimento de Sistemas");
-            $("#txt28").text("Técnico em Mecatrônica");
+            $("#background-1").text("Educação");
+            $("#background-2").text("Pós Tech em Arquitetura de Software");
+            $("#background-3").text("Engenharia da Computação");
+            $("#background-4").text("Tecnologia em Análise e Desenvolvimento de Sistemas");
+            $("#background-5").text("Técnico em Mecatrônica");
             $("#txt29").text("Experiência");
             $("#txt30").text("2024 - agora");
             $("#txt31").text("Desenvolvedor de Software Jr.");
-            $("#txt32").text("Instituto SENAI de Tecnologia");
+            $("#txt32").text("Oxyn");
             $("#txt33").text("Estagiário de Transformação Digital");
             $("#txt34").text("Estagiário em Engenharia de Controle");
             $("#txt35").text("Estagiário em Desenvolvimento de Software");
@@ -197,14 +198,15 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt24").text("Verificar insignias");
 
             //section "background"
-            $("#txt25").text("Educación");
-            $("#txt26").text("Ingeniería Informática");
-            $("#txt27").text("Tecnología en Análisis y Desarrollo de Sistemas");
-            $("#txt28").text("Técnico en Mecatrónica");
+            $("#background-1").text("Educación");
+            $("#background-2").text("Posgrado en Arquitectura de Software");
+            $("#background-3").text("Ingeniería Informática");
+            $("#background-4").text("Tecnología en Análisis y Desarrollo de Sistemas");
+            $("#background-5").text("Técnico en Mecatrónica");
             $("#txt29").text("Experiencia");
             $("#txt30").text("2024 - ahora");
             $("#txt31").text("Desarrollador de Software Jr.");
-            $("#txt32").text("Instituto SENAI de Tecnología");
+            $("#txt32").text("Oxyn");
             $("#txt33").text("Pasante de Transformación Digital");
             $("#txt34").text("Pasante en Ingeniería de Control");
             $("#txt35").text("Pasante en Desarrollo de Software");
@@ -319,14 +321,15 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt24").text("Verify badges");
 
             //section "background"
-            $("#txt25").text("Education");
-            $("#txt26").text("Bachelor's Dergree in Computer Engineering");
-            $("#txt27").text("Associate Dergree in Systems Analysis and Development");
-            $("#txt28").text("Technical Degree in Mechatronics");
+            $("#background-1").text("Education");
+            $("#background-2").text("Postgraduate Studies in Software Architecture");
+            $("#background-3").text("Bachelor's Dergree in Computer Engineering");
+            $("#background-4").text("Associate Dergree in Systems Analysis and Development");
+            $("#background-5").text("Technical Degree in Mechatronics");
             $("#txt29").text("Experience");
             $("#txt30").text("2024 - now");
             $("#txt31").text("Jr. Software Developer");
-            $("#txt32").text("SENAI Institue of Technology");
+            $("#txt32").text("Oxyn");
             $("#txt33").text("Digital Transformation Intern");
             $("#txt34").text("Controls Engineering Intern");
             $("#txt35").text("Software Development Intern");
