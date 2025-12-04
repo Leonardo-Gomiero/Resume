@@ -115,8 +115,8 @@
 
 /* Swiper Pagination */
 .swiper-pagination {
-    position: static;
-    margin-top: 2vh;
+    position: relative !important;
+    margin-top: 4vh;
     display: flex;
     justify-content: center;
 }
@@ -154,6 +154,10 @@
 
     .cert-description {
         font-size: 1.8vh;
+    }
+
+    .swiper-pagination {
+        margin-top: 3vh;
     }
 }
 
