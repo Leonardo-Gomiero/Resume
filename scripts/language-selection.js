@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Curriculo - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia, e sou engenheiro de software web. Estou trabalhando nessa área há dois anos, ganhando experiência em várias empresas onde pude aprimorar minhas habilidades técnicas em ReactJS, NodeJS, Computação em Nuvem, Análise de Dados e mais. No meu papel, aprendi a traduzir as necessidades dos clientes em soluções de software, focando no feedback periódico e prestando muita atenção aos detalhes.");
+            $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia e sou Engenheiro de Software especializado em desenvolvimento back-end. Atualmente, meu foco é a construção e escalabilidade de serviços robustos utilizando C# (.NET Core), Docker e Kubernetes. Meu trabalho recente envolve a implementação de arquiteturas orientadas a eventos com RabbitMQ e Kafka, garantindo a confiabilidade do sistema por meio de testes rigorosos e ferramentas de observabilidade como Datadog e Dynatrace. Sou apaixonado por traduzir necessidades de negócios complexas em soluções de software eficientes e de alta qualidade.");
 
             //section "interests"
             $("#txt8").text("Meus Interesses");
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia, y soy ingeniero de software web. He estado trabajando en este campo durante dos años, ganando experiencia en varias empresas donde pude mejorar mis habilidades técnicas en ReactJS, NodeJS, Computación en la Nube, Análisis de Datos y más. En mi rol, he aprendido a traducir las necesidades de los clientes en soluciones de software, enfocándome en la retroalimentación periódica y prestando mucha atención a los detalles.");
+            $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia y soy Ingeniero de Software especializado en desarrollo back-end. Actualmente, me enfoco en construir y escalar servicios robustos utilizando C# (.NET Core), Docker y Kubernetes. Mi trabajo reciente gira en torno a la implementación de arquiteturas orientadas a eventos con RabbitMQ y Kafka, asegurando la confiabilidad del sistema mediante pruebas rigurosas y herramientas de observabilidad como Datadog y Dynatrace. Me apasiona traducir necesidades de negocio complejas en soluciones de software eficientes y de alta calidad.");
 
             //section "interests"
             $("#txt8").text("Mis Intereses");
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a web software engineer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in ReactJS, NodeJS, Cloud Computing, Data Analysis and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.");
+            $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a Software Engineer specialized in back-end development. I currently focus on building and scaling robust services using C# (.NET Core), Docker, and Kubernetes. My recent work revolves around implementing event-driven architectures with RabbitMQ and Kafka , ensuring system reliability through rigorous testing and observability tools like Datadog and Dynatrace. I am passionate about translating complex business needs into efficient, high-quality software solutions.");
 
             //section "interests"
             $("#txt8").text("My Interests");
