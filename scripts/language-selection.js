@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "about"
             $("#txt1").text("Eu sou");
-            $("#txt2").text("Desenvolvedor de Software");
+            $("#txt2").text("Engenheiro de Software");
             $("#txt3").text("IDADE");
             $("#txt4").text("ENDEREÇO");
             $("#txt5").text("São Bernardo do Campo, SP - Brasil");
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Curriculo - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia, e sou desenvolvedor de software web. Estou trabalhando nessa área há dois anos, ganhando experiência em várias empresas onde pude aprimorar minhas habilidades técnicas em ReactJS, NodeJS, Computação em Nuvem, Análise de Dados e mais. No meu papel, aprendi a traduzir as necessidades dos clientes em soluções de software, focando no feedback periódico e prestando muita atenção aos detalhes.");
+            $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia, e sou engenheiro de software web. Estou trabalhando nessa área há dois anos, ganhando experiência em várias empresas onde pude aprimorar minhas habilidades técnicas em ReactJS, NodeJS, Computação em Nuvem, Análise de Dados e mais. No meu papel, aprendi a traduzir as necessidades dos clientes em soluções de software, focando no feedback periódico e prestando muita atenção aos detalhes.");
 
             //section "interests"
             $("#txt8").text("Meus Interesses");
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-5").text("Técnico em Mecatrônica");
             $("#txt29").text("Experiência");
             $("#txt30").text("2024 - agora");
-            $("#txt31").text("Desenvolvedor de Software Jr.");
+            $("#txt31").text("Engenheiro de Software Jr.");
             $("#txt32").text("Oxyn");
             $("#txt33").text("Estagiário de Transformação Digital");
             $("#txt34").text("Estagiário em Engenharia de Controle");
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "testimonials"
             $("#txt44").text("Referências");
-            $("#txt45").text("Desenvolvedor de Pegasystems na Accenture | PCSA | PCBA");
+            $("#txt45").text("Engenheiro de Pegasystems na Accenture | PCSA | PCBA");
             $("#txt46").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
             $("#txt47").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
             $("#txt48").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt55").text("TELEFONE");
 
             //footer
-            $("#txt56").text("Desenvolvedor de Software");
+            $("#txt56").text("Engenheiro de Software");
             $("#txt57").text("Minha paixão transfigurada em código.");
 
         });
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "about"
             $("#txt1").text("Yo soy");
-            $("#txt2").text("Desarrollador de Software");
+            $("#txt2").text("Ingeniero de Software");
             $("#txt3").text("EDAD");
             $("#txt4").text("DIRECCIÓN");
             $("#txt5").text("São Bernardo do Campo, SP - Brasil");
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia, y soy desarrollador de software web. He estado trabajando en este campo durante dos años, ganando experiencia en varias empresas donde pude mejorar mis habilidades técnicas en ReactJS, NodeJS, Computación en la Nube, Análisis de Datos y más. En mi rol, he aprendido a traducir las necesidades de los clientes en soluciones de software, enfocándome en la retroalimentación periódica y prestando mucha atención a los detalles.");
+            $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia, y soy ingeniero de software web. He estado trabajando en este campo durante dos años, ganando experiencia en varias empresas donde pude mejorar mis habilidades técnicas en ReactJS, NodeJS, Computación en la Nube, Análisis de Datos y más. En mi rol, he aprendido a traducir las necesidades de los clientes en soluciones de software, enfocándome en la retroalimentación periódica y prestando mucha atención a los detalles.");
 
             //section "interests"
             $("#txt8").text("Mis Intereses");
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-5").text("Técnico en Mecatrónica");
             $("#txt29").text("Experiencia");
             $("#txt30").text("2024 - ahora");
-            $("#txt31").text("Desarrollador de Software Jr.");
+            $("#txt31").text("Ingeniero de Software Jr.");
             $("#txt32").text("Oxyn");
             $("#txt33").text("Pasante de Transformación Digital");
             $("#txt34").text("Pasante en Ingeniería de Control");
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "testimonials"
             $("#txt44").text("Referencias");
-            $("#txt45").text("Desarrollador de Pegasystems en Accenture | PCSA | PCBA");
+            $("#txt45").text("Ingeniero de Pegasystems en Accenture | PCSA | PCBA");
             $("#txt46").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
             $("#txt47").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
             $("#txt48").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt55").text("TELÉFONO");
 
             //footer
-            $("#txt56").text("Desarrollador de Software");
+            $("#txt56").text("Ingeniero de Software");
             $("#txt57").text("Mi pasión transformada en código.");
 
         });
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "about"
             $("#txt1").text("I'm");
-            $("#txt2").text("Software Developer");
+            $("#txt2").text("Software Engineer");
             $("#txt3").text("AGE");
             $("#txt4").text("ADDRESS");
             $("#txt5").text("São Bernardo do Campo, SP - Brazil");
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
-            $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in ReactJS, NodeJS, Cloud Computing, Data Analysis and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.");
+            $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a web software engineer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in ReactJS, NodeJS, Cloud Computing, Data Analysis and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.");
 
             //section "interests"
             $("#txt8").text("My Interests");
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-5").text("Technical Degree in Mechatronics");
             $("#txt29").text("Experience");
             $("#txt30").text("2024 - now");
-            $("#txt31").text("Jr. Software Developer");
+            $("#txt31").text("Jr. Software Engineer");
             $("#txt32").text("Oxyn");
             $("#txt33").text("Digital Transformation Intern");
             $("#txt34").text("Controls Engineering Intern");
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#txt55").text("PHONE");
 
             //footer
-            $("#txt56").text("Software Developer");
+            $("#txt56").text("Software Engineer");
             $("#txt57").text("My passion transfigured into code.");
         });
     });
