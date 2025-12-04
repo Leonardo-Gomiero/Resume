@@ -30,6 +30,7 @@
     <script src="scripts/testimonials.js"></script>
     <script src="scripts/animations.js"></script>
     <script src="scripts/language-selection.js"></script>
+    <script src="scripts/age.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -100,17 +101,17 @@
     <div class="act-1">
         <section class="about" id="about">
             <div class="main">
-                <img class="image" src="./assets/thats_me.jpeg" alt="">
+                <img class="image" src="./assets/thats_me.png" alt="">
 
                 <div class="about-text">
                     <h2 class="thin" id="txt1">I'm</h2>
                     <h2>Leonardo Capoccia</h2>
-                    <h5 id="txt2">Software Developer</h5>
+                    <h5 id="txt2">Software Engineer</h5>
                     <hr>
                     <ul class="list-group">
                         <li>
                             <h5 id="txt3">AGE</h5>
-                            <span class="badge">23</span>
+                            <span class="badge" id="age"></span>
                         </li>
                         <li>
                             <h5 id="txt4">ADDRESS</h5>
@@ -147,29 +148,19 @@
 
         <section class="download-cv">
             <button class="button-18" role="button"><a id="txt7"
-                    href="./assets/Resume - Leonardo Gomiero C Capoccia.pdf" download target="_blank">Download
+                    href="./assets/Resume - Leonardo Capoccia.pdf" download target="_blank">Download
                     CV</a></button>
         </section>
 
         <section class="introduction">
-            <h2 id="introducing">Hello, World! My name is Leonardo Capoccia, and I am a web software developer. I have
-                been
-                working
-                in this field
-                for two
-                years, gaining experience in various companies where I could enhance my technical skills in ReactJS,
-                NodeJS, Cloud Computing,
-                Data Analysis, and more. In my role, I've learned to translate client needs into software solutions,
-                focusing on
-                periodic
-                feedback and paying close attention to detail.</h2>
+            <h2 id="introducing">Hello, World! My name is Leonardo Capoccia, and I am a Software Engineer specialized in back-end development. I currently focus on building and scaling robust services using C# (.NET Core), Docker, and Kubernetes. My recent work revolves around implementing event-driven architectures with RabbitMQ and Kafka , ensuring system reliability through rigorous testing and observability tools like Datadog and Dynatrace. I am passionate about translating complex business needs into efficient, high-quality software solutions.</h2>
         </section>
     </div>
 
     <section class="introduction intro">
         <h1>Text Section</h1>
         <div class="text-section">
-            <p>My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field for
+            <p>My name is Leonardo Capoccia, and I am a web software engineer. I have been working in this field for
                 two years, gaining experience in various companies where I could enhance my technical skills in
                 JavaScript, HTML, CSS, SQL, and more. In my role, I've learned to translate client needs into software
                 solutions, focusing on periodic feedback and paying close attention to detail.</p>
@@ -218,16 +209,16 @@
             <div class="left">
                 <ul>
                     <li>
-                        <h3>HTML</h3>
-                        <span class="bar"><span class="html"></span></span>
+                        <h3>C# / .NET Core</h3>
+                        <span class="bar"><span class="csharp"></span></span>
                     </li>
                     <li>
-                        <h3>CSS</h3>
-                        <span class="bar"><span class="css"></span></span>
+                        <h3>React</h3>
+                        <span class="bar"><span class="react"></span></span>
                     </li>
                     <li>
-                        <h3>JavaScript</h3>
-                        <span class="bar"><span class="js"></span></span>
+                        <h3>Cloud Computing</h3>
+                        <span class="bar"><span class="cloud-computing"></span></span>
                     </li>
                 </ul>
 
@@ -236,16 +227,16 @@
             <div class="right">
                 <ul>
                     <li>
-                        <h3>Java</h3>
-                        <span class="bar"><span class="java"></span></span>
+                        <h3>DevOps/Docker/Kubernetes</h3>
+                        <span class="bar"><span class="devops"></span></span>
                     </li>
                     <li>
-                        <h3>Cloud Computing</h3>
-                        <span class="bar"><span class="aws"></span></span>
+                        <h3 id="txt12-arch">Software Architecture</h3>
+                        <span class="bar"><span class="software-arch"></span></span>
                     </li>
                     <li>
-                        <h3 id="txt11">Data Analysis</h3>
-                        <span class="bar"><span class="data-an"></span></span>
+                        <h3 id="txt11">Observability & Monitoring</h3>
+                        <span class="bar"><span class="observability"></span></span>
                     </li>
                 </ul>
 
@@ -263,10 +254,14 @@
                 <img src="assets/logos/css.png" />
                 <img src="assets/logos/js.png" />
                 <img src="assets/logos/typescript.png" />
-                <img src="assets/logos/angular.png" />
+                <img src="assets/logos/docker.png" />
+                <img src="assets/logos/kubernetes.png" />
                 <img src="assets/logos/reactjs.png" />
                 <img src="assets/logos/nodejs.png" />
                 <img src="assets/logos/java.png" />
+                <img src="assets/logos/spring.png" />
+                <img src="assets/logos/csharp.png" />
+                <img src="assets/logos/dotnet.png" />
                 <img src="assets/logos/sql.png" />
                 <img src="assets/logos/postgresql.png" />
                 <img src="assets/logos/mongodb.png" />
@@ -297,106 +292,96 @@
     </section>
 
     <section class="certificates" id="certificates">
-        <h1 id="txt14">My Certificates</h1>
-        <div class="card">
-            <input type="radio" name="select" id="slide_1" checked>
-            <input type="radio" name="select" id="slide_2">
-            <input type="radio" name="select" id="slide_3">
-            <input type="radio" name="select" id="slide_4">
-            <input type="radio" name="select" id="slide_5">
-            <input type="checkbox" id="slideImg">
-
-            <div class="inner_part">
-                <label for="slideImg" class="img">
-                    <img class="img_1" src="assets/certificates/aws.png">
-                </label>
-                <div class="content content_1">
-                    <div class="title-certificate">AWS Cloud Practitioner</div>
-                    <div class="text" id="txt15">
-                        The AWS Cloud Practitioner badge is an entry-level certification from Amazon Web Services. It
-                        validates basic knowledge of AWS Cloud services, pricing models, and security.
+        <div class="cert-container">
+            <div class="cert-header">
+                <h1 class="title" id="txt14">My Certificates</h1>
+            </div>
+            <div class="certificates-content">
+                <div class="swiper certificates-slider js-certificates-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide certificates-item">
+                            <div class="cert-card">
+                                <img src="assets/certificates/aws.png" alt="AWS">
+                                <div class="cert-text-box">
+                                    <h3 class="cert-title">AWS Cloud Practitioner</h3>
+                                    <p class="cert-description" id="txt15">
+                                        The AWS Cloud Practitioner badge is an entry-level certification from Amazon Web Services. It
+                                        validates basic knowledge of AWS Cloud services, pricing models, and security.
+                                    </p>
+                                    <button><a
+                                            href="https://www.credly.com/badges/8e680540-a589-40b8-974a-bcb2c4407c2c/linked_in?t=rec63e"
+                                            target="_blank" id="txt16">Verify badge</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide certificates-item">
+                            <div class="cert-card">
+                                <img src="assets/certificates/az900.png" alt="Azure">
+                                <div class="cert-text-box">
+                                    <h3 class="cert-title">Microsoft AZ-900</h3>
+                                    <p class="cert-description" id="txt17">
+                                        The Azure Fundamentals certification (AZ-900) introduces foundational cloud concepts and
+                                        Microsoft Azure services. It validates basic knowledge of cloud services and how they are
+                                        provided with Azure.
+                                    </p>
+                                    <button><a
+                                            href="https://learn.microsoft.com/pt-br/users/leonardogomiero-0213/credentials/1c0489150b093fb3?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                                            target="_blank" id="txt18">Verify badge</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide certificates-item">
+                            <div class="cert-card">
+                                <img src="assets/certificates/ai900.png" alt="AI">
+                                <div class="cert-text-box">
+                                    <h3 class="cert-title">Microsoft AI-900</h3>
+                                    <p class="cert-description" id="txt19">
+                                        The Microsoft AI Fundamentals certificationThe (AI-900) is a Microsoft Azure certification exam
+                                        covering fundamental concepts of artificial intelligence (AI) and its application on Azure. It's
+                                        for individuals seeking basic knowledge in AI technologies on the Azure platform.
+                                    </p>
+                                    <button><a
+                                            href="https://www.credly.com/badges/c325056b-43df-4c9b-957a-bf1ee476735a/linked_in_profile"
+                                            target="_blank" id="txt20">Verify badge</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide certificates-item">
+                            <div class="cert-card">
+                                <img src="assets/certificates/dp900.png" alt="Data">
+                                <div class="cert-text-box">
+                                    <h3 class="cert-title">Microsoft DP-900</h3>
+                                    <p class="cert-description" id="txt21">
+                                        The Microsoft Azure Data Fundamentals certification (DP-900) signals a solid foundation in key
+                                        data concepts for Azure. It demonstrates proficiency in handling diverse data types, knowledge
+                                        of data workloads, and familiarity with Azure services.
+                                    </p>
+                                    <button><a
+                                            href="https://www.credly.com/badges/3bd959dd-0d98-4c38-9ed4-615aced421a7/linked_in?t=rnytyg"
+                                            target="_blank" id="txt22">Verify badge</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide certificates-item">
+                            <div class="cert-card">
+                                <img src="assets/certificates/gcp.png" alt="GCP">
+                                <div class="cert-text-box">
+                                    <h3 class="cert-title">Google Cloud Platform</h3>
+                                    <p class="cert-description" id="txt23">
+                                        These 11 badges cover foundational tasks, cloud resource management, networking, and cloud
+                                        computing fundamentals. Notably, achievements in GCP Foundations highlight a solid understanding
+                                        of infrastructure, security, and networking.
+                                    </p>
+                                    <button><a
+                                            href="https://www.cloudskillsboost.google/public_profiles/1d5dd185-d3bd-4549-acce-77dd145cb024"
+                                            target="_blank" id="txt24">Verify badges</a></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button><a
-                            href="https://www.credly.com/badges/8e680540-a589-40b8-974a-bcb2c4407c2c/linked_in?t=rec63e"
-                            target="_blank" id="txt16">Verify badge</a></button>
                 </div>
+                <div class="swiper-pagination js-certificates-pagination"></div>
             </div>
-            <div class="inner_part">
-                <label for="slideImg" class="img">
-                    <img class="img_2" src="assets/certificates/az900.png">
-                </label>
-                <div class="content content_2">
-                    <div class="title-certificate">Microsoft AZ-900</div>
-                    <div class="text" id="txt17">
-                        The Azure Fundamentals certification (AZ-900) introduces foundational cloud concepts and
-                        Microsoft Azure services. It validates basic knowledge of cloud services and how they are
-                        provided with Azure.
-                    </div>
-                    <button><a
-                            href="https://learn.microsoft.com/pt-br/users/leonardogomiero-0213/credentials/1c0489150b093fb3?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-                            target="_blank" id="txt18">Verify badge</a></button>
-                </div>
-            </div>
-
-            <div class="inner_part">
-                <label for="slideImg" class="img">
-                    <img class="img_3" src="assets/certificates/ai900.png">
-                </label>
-                <div class="content content_3">
-                    <div class="title-certificate">Microsoft AI-900</div>
-                    <div class="text" id="txt19">
-                        The Microsoft AI Fundamentals certificationThe (AI-900) is a Microsoft Azure certification exam
-                        covering fundamental concepts of artificial intelligence (AI) and its application on Azure. It's
-                        for individuals seeking basic knowledge in AI technologies on the Azure platform.
-                    </div>
-                    <button><a
-                            href="https://www.credly.com/badges/c325056b-43df-4c9b-957a-bf1ee476735a/linked_in_profile"
-                            target="_blank" id="txt20">Verify badge</a></button>
-                </div>
-            </div>
-
-            <div class="inner_part">
-                <label for="slideImg" class="img">
-                    <img class="img_4" src="assets/certificates/dp900.png">
-                </label>
-                <div class="content content_4">
-                    <div class="title-certificate">Microsoft DP-900</div>
-                    <div class="text" id="txt21">
-                        The Microsoft Azure Data Fundamentals certification (DP-900) signals a solid foundation in key
-                        data concepts for Azure. It demonstrates proficiency in handling diverse data types, knowledge
-                        of data workloads, and familiarity with Azure services.
-                    </div>
-                    <button><a
-                            href="https://www.credly.com/badges/3bd959dd-0d98-4c38-9ed4-615aced421a7/linked_in?t=rnytyg"
-                            target="_blank" id="txt22">Verify badge</a></button>
-                </div>
-            </div>
-
-            <div class="inner_part">
-                <label for="slideImg" class="img">
-                    <img class="img_5" src="assets/certificates/gcp.png">
-                </label>
-                <div class="content content_5">
-                    <div class="title-certificate">Google Cloud Platform</div>
-                    <div class="text" id="txt23">
-                        These 11 badges cover foundational tasks, cloud resource management, networking, and cloud
-                        computing fundamentals. Notably, achievements in GCP Foundations highlight a solid understanding
-                        of infrastructure, security, and networking.
-                    </div>
-                    <button><a
-                            href="https://www.cloudskillsboost.google/public_profiles/1d5dd185-d3bd-4549-acce-77dd145cb024"
-                            target="_blank" id="txt24">Verify badges</a></button>
-                </div>
-            </div>
-
-            <div class="slider">
-                <label for="slide_1" class="slide slide_1"></label>
-                <label for="slide_2" class="slide slide_2"></label>
-                <label for="slide_3" class="slide slide_3"></label>
-                <label for="slide_4" class="slide slide_4"></label>
-                <label for="slide_5" class="slide slide_5"></label>
-            </div>
-
         </div>
     </section>
 
@@ -448,27 +433,33 @@
                 <div class="contents">
 
                     <div class="box from-right">
-                        <h4 id="txt30">2024 - now</h4>
-                        <h3 id="txt31">Jr. Sofware Developer</h3>
-                        <p id="txt32">Oxyn</p>
+                        <h4 id="txt30">2025 - now</h4>
+                        <h3 id="txt31">Software Engineer</h3>
+                        <p id="txt32">XP Inc.</p>
+                    </div>
+
+                    <div class="box from-right">
+                        <h4>2024 - 2025</h4>
+                        <h3 id="txt33">Software Engineer</h3>
+                        <p id="txt34">Microblau</p>
                     </div>
                     
                     
                     <div class="box from-right">
                         <h4>2023 - 2024</h4>
-                        <h3 id="txt33">Digital Transformation Intern</h3>
+                        <h3 id="txt35">Digital Transformation Intern</h3>
                         <p>Bayer</p>
                     </div>
 
                     <div class="box from-right">
                         <h4>2022</h4>
-                        <h3 id="txt34">Controls Engineering Intern</h3>
+                        <h3 id="txt36">Controls Engineering Intern</h3>
                         <p>Comau</p>
                     </div>
 
                     <div class="box from-right">
                         <h4>2021 - 2022</h4>
-                        <h3 id="txt35">Software Development Intern</h3>
+                        <h3 id="txt37">Software Development Intern</h3>
                         <p>Microblau</p>
                     </div>
 
@@ -487,9 +478,9 @@
                     <li class="from-left">
                         <div class="title-lang">
                             <img class="image-small" src="./assets/languages/english.png" alt="">
-                            <h3 id="txt36">English</h3>
+                            <h3 id="txt38">English</h3>
                         </div>
-                        <p id="txt37">I am proud to hold a <b id="cae">Certificate
+                        <p id="txt39">I am proud to hold a <b id="cae">Certificate
                                 in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to
                             my proficiency
                             in the language.</p>
@@ -498,17 +489,17 @@
                     <li class="from-right">
                         <div class="title-lang">
                             <img class="image-small" src="./assets/languages/portuguese.png" alt="">
-                            <h3 id="txt38">Portuguese</h3>
+                            <h3 id="txt40">Portuguese</h3>
                         </div>
-                        <p id="txt39">As a Brazilian citizen, Portuguese is my native language.</p>
+                        <p id="txt41">As a Brazilian citizen, Portuguese is my native language.</p>
                         <span class="bar"><span class="english"></span></span>
                     </li>
                     <li class="from-left">
                         <div class="title-lang">
                             <img class="image-small" src="./assets/languages/spanish.png" alt="">
-                            <h3 id="txt40">Spanish</h3>
+                            <h3 id="txt42">Spanish</h3>
                         </div>
-                        <p id="txt41">I am presently engaged in the study of Spanish, having reached a proficiency level
+                        <p id="txt43">I am presently engaged in the study of Spanish, having reached a proficiency level
                             approaching B1. This signifies that I am capable of communicating effectively in basic
                             language situations.</p>
                         <span class="bar"><span class="spanish"></span></span>
@@ -516,9 +507,9 @@
                     <li class="from-right">
                         <div class="title-lang">
                             <img class="image-small" src="./assets/languages/italian.png" alt="">
-                            <h3 id="txt42">Italian</h3>
+                            <h3 id="txt44">Italian</h3>
                         </div>
-                        <p id="txt43">I've studied Italian for three years and am motivated to continue due to Italian
+                        <p id="txt45">I've studied Italian for three years and am motivated to continue due to Italian
                             family
                             members.</p>
                         <span class="bar"><span class="italian"></span></span>
@@ -531,20 +522,20 @@
     <section class="testimonials" id="testimonials">
         <div class="test-container">
             <div class="test-header">
-                <h1 class="title" id="txt44">References</h1>
+                <h1 class="title" id="txt46">References</h1>
             </div>
             <div class="testimonials-content">
                 <div class="swiper testimonials-slider js-testimonials-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide testimonials-item">
                             <div class="info">
-                                <img src="./assets/testimonials/juan_carvalho.jpeg" alt="img">
+                                <img src="./assets/testimonials/juan_carvalho.jpg" alt="img">
                                 <div class="text-box">
                                     <h3 class="name">Juan Carvalho</h3>
-                                    <span class="job" id="txt45">Pegasystems Developer at Accenture | PCSA | PCBA</span>
+                                    <span class="job" id="txt47">Data Science | ML Engineering | Python, PEGA, AI</span>
                                 </div>
                             </div>
-                            <p id="txt46">I've been studying along with Leonardo since freshman's year in HS. We both
+                            <p id="txt48">I've been studying along with Leonardo since freshman's year in HS. We both
                                 were former
                                 volunteer monitors and among HS top 5% outstanding students and now are proudly part of
                                 the same university.
@@ -563,15 +554,15 @@
                         </div>
                         <div class="swiper-slide testimonials-item">
                             <div class="info">
-                                <img src="./assets/testimonials/crishna_irion.jpeg" alt="img">
+                                <img src="./assets/testimonials/crishna_irion.png" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Crishana Irion</h3>
-                                    <span class="job" id="txt47">Professor and coordinator of the Analysis and Systems
+                                    <h3 class="name">Crishna Irion</h3>
+                                    <span class="job" id="txt49">Professor and coordinator of the Analysis and Systems
                                         Development
                                         course at SENAI</span>
                                 </div>
                             </div>
-                            <p id="txt48">Leo was a very kind and dedicated student, both towards his peers and
+                            <p id="txt50">Leo was a very kind and dedicated student, both towards his peers and
                                 teachers. He was
                                 responsible in his tasks and deeply committed and proactive. He is a very cultured and
                                 intelligent person, reflecting on proposed issues and seeking to mediate all kinds of
@@ -588,18 +579,47 @@
                         </div>
                         <div class="swiper-slide testimonials-item" id="vida">
                             <div class="info">
-                                <img src="./assets/testimonials/robson_alexandro.jpeg" alt="img">
+                                <img src="./assets/testimonials/marcelo_domingues.jpg" alt="img">
                                 <div class="text-box">
-                                    <h3 class="name">Robson da Costa</h3>
-                                    <span class="job" id="txt49">Managing Partner at Soft4it IT Consulting | Senior SAP
-                                        Consultant | SD Module</span>
+                                    <h3 class="name">Marcelo Domingues</h3>
+                                    <span class="job" id="txt51">IT Head | IT Manager | Digital Transformation Leader | Data Management & Governance | IT Strategy | Business Intelligence | Data Analytics</span>
                                 </div>
                             </div>
-                            <p id="txt50">It is with great pleasure that I write this recommendation for Leonardo, a
-                                highly dedicated and studious information technology professional.<br>
-                                Based on my interactions with him and his reputation in the information technology
-                                sector, I do not hesitate to recommend him as a valuable asset to any team or project
-                                related to software development.</p>
+                            <p id="txt52">I have worked with Leo as digital transformation intern for almost two years. His commitment to learning, problem-solving, and ability to collaborate with the team have significantly impacted our projects and initiatives. During this time, Leo has consistenly demonstrated his proficiency in the whole software development cycle, and your eagerness to take on challenges have not gone unnoticed. I really appreciate the innovative ideas brought by him to the table and his willingness to assist others. Leo, thank you for your hard work, professionalism, and positive attitude. I wish you all the best in your future endeavors and I am confident that you will excel in your career. Keep going and fly high!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <div class="info">
+                                <img src="./assets/testimonials/vitor_oliveira.jpg" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name" id="txt60">Vitor Oliveira</h3>
+                                    <span class="job" id="txt61">Senior System Developer</span>
+                                </div>
+                            </div>
+                            <p id="txt62">I had the pleasure of working with Leonardo at two moments in my career, and from day one, he stood out for his cordiality, politeness, and professionalism. With an agile intellect and great adaptability, he always demonstrated a strong sense of responsibility, delivering solutions with quality and efficiency. Furthermore, his proactivity and ease of working in a team make him an exceptional professional, an excellent student, and an inspiring colleague. Without a doubt, any team that has him will have a great advantage.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <div class="info">
+                                <img src="./assets/testimonials/layra_beluco.png" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name" id="txt63">Layra Beluco</h3>
+                                    <span class="job" id="txt64">Software Engineer | Developer | Automation Engineer</span>
+                                </div>
+                            </div>
+                            <p id="txt65">I had the privilege of working with Leonardo at Oxyn, where he mentored me in software development. Even in just for a few months, his direction helped me absorb crucial information and studies in an agile and organized manner. I definitely recommend him as a valuable asset to any team or project. He is highly dedicated, intelligent, and extremely determined in his tasks, always willing to support the team.</p>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -617,12 +637,12 @@
     </section>
 
     <section class="contact" id="contact">
-        <h1 id="txt51">Contact Me</h1>
+        <h1 id="txt53">Contact Me</h1>
         <div class="contact-items">
 
             <div class="left block from-left">
                 <form onsubmit="sendEmail(); reset(); return false;">
-                    <h2 id="txt52">Feel free to contact me</h2>
+                    <h2 id="txt54">Feel free to contact me</h2>
                     <input type="text" id="name" placeholder="Name" required>
                     <input type="email" id="email" placeholder="Email" required>
                     <input type="text" id="subject" placeholder="Subject" required>
@@ -634,11 +654,11 @@
             <div class="right block from-right">
                 <ul class="grouplist">
                     <li>
-                        <h5 id="txt53">ADDRESS</h5>
-                        <span class="badge" id="txt54">São Bernardo do Campo, SP - Brazil</span>
+                        <h5 id="txt55">ADDRESS</h5>
+                        <span class="badge" id="txt56">São Bernardo do Campo, SP - Brazil</span>
                     </li>
                     <li>
-                        <h5 id="txt55">PHONE</h5>
+                        <h5 id="txt57">PHONE</h5>
                         <span class="badge">+55 11 98336-7853</span>
                     </li>
                     <li>
@@ -659,8 +679,8 @@
 
     <footer>
         <div class="footer-content">
-            <h3 id="txt56">Software Developer</h3>
-            <p id="txt57">My passion transfigured into code.</p>
+            <h3 id="txt58">Software Engineer</h3>
+            <p id="txt59">My passion transfigured into code.</p>
             <ul class="socials">
                 <li><a href="https://github.com/Leonardo-Gomiero" target="_blank"><i
                             class="fa-brands fa-github"></i></a></li>
