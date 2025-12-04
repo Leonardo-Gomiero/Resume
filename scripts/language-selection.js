@@ -82,49 +82,51 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-4").text("Tecnologia em Análise e Desenvolvimento de Sistemas");
             $("#background-5").text("Técnico em Mecatrônica");
             $("#txt29").text("Experiência");
-            $("#txt30").text("2024 - agora");
-            $("#txt31").text("Engenheiro de Software Jr.");
-            $("#txt32").text("Oxyn");
-            $("#txt33").text("Estagiário de Transformação Digital");
-            $("#txt34").text("Estagiário em Engenharia de Controle");
-            $("#txt35").text("Estagiário em Desenvolvimento de Software");
+            $("#txt30").text("2025 - now");
+            $("#txt31").text("Engenheiro de Software");
+            $("#txt32").text("XP Inc.");
+            $("#txt33").text("Engenheiro de Software");
+            $("#txt34").text("Microblau");
+            $("#txt35").text("Estagiário de Transformação Digital");
+            $("#txt36").text("Estagiário em Engenharia de Controle");
+            $("#txt37").text("Estagiário em Desenvolvimento de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
-            $("#txt36").text("Inglês");
-            if (document.getElementById('txt37')) {
-                txt37.innerHTML = 'Tenho orgulho de possuir um <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado em Inglês Avançado (CAE)</b>, credenciado pela <i>Cambridge</i>, o que atesta minha proficiência no idioma.';
+            $("#txt38").text("Inglês");
+            if (document.getElementById('txt39')) {
+                txt39.innerHTML = 'Tenho orgulho de possuir um <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado em Inglês Avançado (CAE)</b>, credenciado pela <i>Cambridge</i>, o que atesta minha proficiência no idioma.';
             }
-            $("#txt38").text("Português");
-            $("#txt39").text("Como cidadão brasileiro, o português é minha língua nativa.");
-            $("#txt40").text("Espanhol");
-            $("#txt41").text("Atualmente, estou envolvido no estudo do espanhol, tendo alcançado um nível de proficiência próximo ao B1. Isso significa que sou capaz de me comunicar de forma eficaz em situações básicas de linguagem.");
-            $("#txt42").text("Italiano");
-            $("#txt43").text("Estudei italiano por três anos e estou motivado a continuar devido aos membros da família italianos.");
+            $("#txt40").text("Português");
+            $("#txt41").text("Como cidadão brasileiro, o português é minha língua nativa.");
+            $("#txt42").text("Espanhol");
+            $("#txt43").text("Atualmente, estou envolvido no estudo do espanhol, tendo alcançado um nível de proficiência próximo ao B1. Isso significa que sou capaz de me comunicar de forma eficaz em situações básicas de linguagem.");
+            $("#txt44").text("Italiano");
+            $("#txt45").text("Estudei italiano por três anos e estou motivado a continuar devido aos membros da família italianos.");
 
             //section "testimonials"
-            $("#txt44").text("Referências");
-            $("#txt45").text("Engenheiro de Pegasystems na Accenture | PCSA | PCBA");
-            $("#txt46").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
-            $("#txt47").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
-            $("#txt48").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
-            $("#txt49").text("Sócio Diretor da Soft4it Consultoria de Informática | Consultor de SAP Sênior | Módulo SD");
-            $("#txt50").text("É com grande prazer que escrevo esta recomendação para Leonardo, um profissional de tecnologia da informação altamente dedicado e estudioso. Com base na minha interação com ele e na sua reputação no setor de tecnologia da informação, não hesito em recomendá-lo como um valioso ativo para qualquer equipe ou projeto relacionado à área de desenvolvimento de software.");
+            $("#txt46").text("Referências");
+            $("#txt47").text("Engenheiro de Pegasystems na Accenture | PCSA | PCBA");
+            $("#txt48").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
+            $("#txt49").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
+            $("#txt50").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
+            $("#txt51").text("Sócio Diretor da Soft4it Consultoria de Informática | Consultor de SAP Sênior | Módulo SD");
+            $("#txt52").text("É com grande prazer que escrevo esta recomendação para Leonardo, um profissional de tecnologia da informação altamente dedicado e estudioso. Com base na minha interação com ele e na sua reputação no setor de tecnologia da informação, não hesito em recomendá-lo como um valioso ativo para qualquer equipe ou projeto relacionado à área de desenvolvimento de software.");
 
             //section "contact"
-            $("#txt51").text("Me contate");
-            $("#txt52").text("Sinta-se livre para me contatar");
+            $("#txt53").text("Me contate");
+            $("#txt54").text("Sinta-se livre para me contatar");
             $("#name").attr('placeholder', 'Nome');
             $("#subject").attr('placeholder', 'Assunto');
             $("#message").attr('placeholder', 'Mensagem');
             $("#form-button").text("Enviar");
-            $("#txt53").text("ENDEREÇO");
-            $("#txt54").text("São Bernardo do Campo, SP - Brasil");
-            $("#txt55").text("TELEFONE");
+            $("#txt55").text("ENDEREÇO");
+            $("#txt56").text("São Bernardo do Campo, SP - Brasil");
+            $("#txt57").text("TELEFONE");
 
             //footer
-            $("#txt56").text("Engenheiro de Software");
-            $("#txt57").text("Minha paixão transfigurada em código.");
+            $("#txt58").text("Engenheiro de Software");
+            $("#txt59").text("Minha paixão transfigurada em código.");
 
         });
     });
@@ -206,49 +208,51 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-4").text("Tecnología en Análisis y Desarrollo de Sistemas");
             $("#background-5").text("Técnico en Mecatrónica");
             $("#txt29").text("Experiencia");
-            $("#txt30").text("2024 - ahora");
-            $("#txt31").text("Ingeniero de Software Jr.");
-            $("#txt32").text("Oxyn");
-            $("#txt33").text("Pasante de Transformación Digital");
-            $("#txt34").text("Pasante en Ingeniería de Control");
-            $("#txt35").text("Pasante en Desarrollo de Software");
+            $("#txt30").text("2025 - now");
+            $("#txt31").text("Ingeniero de Software");
+            $("#txt32").text("XP Inc.");
+            $("#txt33").text("Ingeniero de Software");
+            $("#txt34").text("Microblau");
+            $("#txt35").text("Pasante de Transformación Digital");
+            $("#txt36").text("Pasante en Ingeniería de Control");
+            $("#txt37").text("Pasante en Desarrollo de Software");
 
             //section "languages"
             $("#txtLang").text("Idiomas");
-            $("#txt36").text("Inglés");
-            if (document.getElementById('txt37')) {
-                txt37.innerHTML = 'Me enorgullezco de tener un <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado en Inglés Avanzado (CAE)</b>, acreditado por <i>Cambridge</i>, que demuestra mi competencia en el idioma.';
+            $("#txt38").text("Inglés");
+            if (document.getElementById('txt39')) {
+                txt39.innerHTML = 'Me enorgullezco de tener un <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificado en Inglés Avanzado (CAE)</b>, acreditado por <i>Cambridge</i>, que demuestra mi competencia en el idioma.';
             }
-            $("#txt38").text("Portugués");
-            $("#txt39").text("Como ciudadano brasileño, el portugués es mi lengua materna.");
-            $("#txt40").text("Español");
-            $("#txt41").text("Actualmente, estoy estudiando español y he alcanzado un nivel de competencia cercano a B1. Esto significa que soy capaz de comunicarme eficazmente en situaciones básicas de lenguaje.");
-            $("#txt42").text("Italiano");
-            $("#txt43").text("He estudiado italiano durante tres años y estoy motivado para continuar debido a los miembros de mi familia italianos.");
+            $("#txt40").text("Portugués");
+            $("#txt41").text("Como ciudadano brasileño, el portugués es mi lengua materna.");
+            $("#txt42").text("Español");
+            $("#txt43").text("Actualmente, estoy estudiando español y he alcanzado un nivel de competencia cercano a B1. Esto significa que soy capaz de comunicarme eficazmente en situaciones básicas de lenguaje.");
+            $("#txt44").text("Italiano");
+            $("#txt45").text("He estudiado italiano durante tres años y estoy motivado para continuar debido a los miembros de mi familia italianos.");
 
             //section "testimonials"
-            $("#txt44").text("Referencias");
-            $("#txt45").text("Ingeniero de Pegasystems en Accenture | PCSA | PCBA");
-            $("#txt46").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
-            $("#txt47").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
-            $("#txt48").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
-            $("#txt49").text("Socio Director en Soft4it Consultoría de Informática | Consultor Senior de SAP | Módulo SD");
-            $("#txt50").text("Es un gran placer escribir esta recomendación para Leonardo, un profesional de tecnología de la información altamente dedicado y estudioso. Basándome en mi interacción con él y en su reputación en el sector de tecnología de la información, no dudo en recomendarlo como un activo valioso para cualquier equipo o proyecto relacionado con el desarrollo de software.");
+            $("#txt46").text("Referencias");
+            $("#txt47").text("Ingeniero de Pegasystems en Accenture | PCSA | PCBA");
+            $("#txt48").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
+            $("#txt49").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
+            $("#txt50").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
+            $("#txt51").text("Socio Director en Soft4it Consultoría de Informática | Consultor Senior de SAP | Módulo SD");
+            $("#txt52").text("Es un gran placer escribir esta recomendación para Leonardo, un profesional de tecnología de la información altamente dedicado y estudioso. Basándome en mi interacción con él y en su reputación en el sector de tecnología de la información, no dudo en recomendarlo como un activo valioso para cualquier equipo o proyecto relacionado con el desarrollo de software.");
 
             //section "contact"
-            $("#txt51").text("Contáctame");
-            $("#txt52").text("No dudes en contactarme");
+            $("#txt53").text("Contáctame");
+            $("#txt54").text("No dudes en contactarme");
             $("#name").attr('placeholder', 'Nombre');
             $("#subject").attr('placeholder', 'Asunto');
             $("#message").attr('placeholder', 'Mensaje');
             $("#form-button").text("Enviar");
-            $("#txt53").text("DIRECCIÓN");
-            $("#txt54").text("São Bernardo do Campo, SP - Brasil");
-            $("#txt55").text("TELÉFONO");
+            $("#txt55").text("DIRECCIÓN");
+            $("#txt56").text("São Bernardo do Campo, SP - Brasil");
+            $("#txt57").text("TELÉFONO");
 
             //footer
-            $("#txt56").text("Ingeniero de Software");
-            $("#txt57").text("Mi pasión transformada en código.");
+            $("#txt58").text("Ingeniero de Software");
+            $("#txt59").text("Mi pasión transformada en código.");
 
         });
     });
@@ -330,49 +334,51 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#background-4").text("Associate Dergree in Systems Analysis and Development");
             $("#background-5").text("Technical Degree in Mechatronics");
             $("#txt29").text("Experience");
-            $("#txt30").text("2024 - now");
-            $("#txt31").text("Jr. Software Engineer");
-            $("#txt32").text("Oxyn");
-            $("#txt33").text("Digital Transformation Intern");
-            $("#txt34").text("Controls Engineering Intern");
-            $("#txt35").text("Software Development Intern");
+            $("#txt30").text("2025 - now");
+            $("#txt31").text("Software Engineer");
+            $("#txt32").text("XP Inc.");
+            $("#txt33").text("Software Engineer");
+            $("#txt34").text("Microblau");
+            $("#txt35").text("Digital Transformation Intern");
+            $("#txt36").text("Controls Engineering Intern");
+            $("#txt37").text("Software Development Intern");
 
             //section "languages"
             $("#txtLang").text("Languages");
-            $("#txt36").text("English");
-            if (document.getElementById('txt37')) {
-                txt37.innerHTML = 'I am proud to hold a <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificate in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to my proficiency in the language.';
+            $("#txt38").text("English");
+            if (document.getElementById('txt39')) {
+                txt39.innerHTML = 'I am proud to hold a <b style="color: #FEBD40; font-weight: bold; font-style: italic;">Certificate in Advanced English</b>, accredited by <i>Cambridge</i>, which serves as a testament to my proficiency in the language.';
             }            
-            $("#txt38").text("Portuguese");
-            $("#txt39").text("As a Brazilian citizen, Portuguese is my native language.");
-            $("#txt40").text("Spanish");
-            $("#txt41").text("I am presently engaged in the study of Spanish, having reached a proficiency level approaching B1. This signifies that I am capable of communicating effectively in basic language situations.");
-            $("#txt42").text("Italian");
-            $("#txt43").text("I've studied Italian for three years and am motivated to continue due to Italian family members.");
+            $("#txt40").text("Portuguese");
+            $("#txt41").text("As a Brazilian citizen, Portuguese is my native language.");
+            $("#txt42").text("Spanish");
+            $("#txt43").text("I am presently engaged in the study of Spanish, having reached a proficiency level approaching B1. This signifies that I am capable of communicating effectively in basic language situations.");
+            $("#txt44").text("Italian");
+            $("#txt45").text("I've studied Italian for three years and am motivated to continue due to Italian family members.");
 
             //section "testimonials"
-            $("#txt44").text("References");
-            $("#txt45").text("Pegasystems Developer At Accenture | PCSA | PCBA");
-            $("#txt46").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
-            $("#txt47").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
-            $("#txt48").text("Leo was a very kind and dedicated student, both towards his peers and teachers. He was responsible in his tasks and deeply committed and proactive. He is a very cultured and intelligent person, reflecting on proposed issues and seeking to mediate all kinds of debates with coherent arguments.<br> It is a true pride to be able to recommend him as a professional and, above all, as a person.");
-            $("#txt49").text("Managing Partner at Soft4it IT Consulting | Senior SAP Consultant | SD Module");
-            $("#txt50").text("It is with great pleasure that I write this recommendation for Leonardo, a highly dedicated and studious information technology professional. Based on my interactions with him and his reputation in the information technology sector, I do not hesitate to recommend him as a valuable asset to any team or project related to software development.");
+            $("#txt46").text("References");
+            $("#txt47").text("Pegasystems Developer At Accenture | PCSA | PCBA");
+            $("#txt48").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
+            $("#txt49").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
+            $("#txt50").text("Leo was a very kind and dedicated student, both towards his peers and teachers. He was responsible in his tasks and deeply committed and proactive. He is a very cultured and intelligent person, reflecting on proposed issues and seeking to mediate all kinds of debates with coherent arguments.<br> It is a true pride to be able to recommend him as a professional and, above all, as a person.");
+            $("#txt51").text("Managing Partner at Soft4it IT Consulting | Senior SAP Consultant | SD Module");
+            $("#txt52").text("It is with great pleasure that I write this recommendation for Leonardo, a highly dedicated and studious information technology professional. Based on my interactions with him and his reputation in the information technology sector, I do not hesitate to recommend him as a valuable asset to any team or project related to software development.");
 
             //section "contact"
-            $("#txt51").text("Contact Me");
-            $("#txt52").text("Feel free to contact me");
+            $("#txt53").text("Contact Me");
+            $("#txt54").text("Feel free to contact me");
             $("#name").attr('placeholder', 'Name');
             $("#subject").attr('placeholder', 'Subject');
             $("#message").attr('placeholder', 'Message');
             $("#form-button").text("Send");
-            $("#txt53").text("ADDRESS");
-            $("#txt54").text("São Bernardo do Campo, SP - Brazil");
-            $("#txt55").text("PHONE");
+            $("#txt55").text("ADDRESS");
+            $("#txt56").text("São Bernardo do Campo, SP - Brazil");
+            $("#txt57").text("PHONE");
 
             //footer
-            $("#txt56").text("Software Engineer");
-            $("#txt57").text("My passion transfigured into code.");
+            $("#txt58").text("Software Engineer");
+            $("#txt59").text("My passion transfigured into code.");
         });
     });
 
