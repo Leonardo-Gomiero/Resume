@@ -106,12 +106,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "testimonials"
             $("#txt46").text("Referências");
-            $("#txt47").text("Engenheiro de Pegasystems na Accenture | PCSA | PCBA");
+            $("#txt47").text("Data Science | ML Engineering | Python, PEGA, AI");
             $("#txt48").text("Desde o primeiro ano do ensino médio, tenho estudado junto com Leonardo. Ambos fomos monitores voluntários e nos destacamos entre os 5% melhores alunos do ensino médio, e agora, com orgulho, fazemos parte da mesma universidade. Leonardo é, sem dúvida alguma, um aluno extremamente dedicado, brilhante e compassivo. Ele aprende rapidamente e pensa logicamente, sempre buscando oportunidades para sua carreira e utilizando as lições aprendidas com seus erros passados para superar os desafios atuais.");
             $("#txt49").text("Professora e coordenadora do curso de Análise e Desenvolvimento de Sistemas no SENAI");
             $("#txt50").text("Leo era um aluno muito gentil e dedicado, tanto com seus colegas quanto com seus professores. Ele era responsável em suas tarefas e profundamente comprometido e proativo. É uma pessoa muito culta e inteligente, refletindo sobre questões propostas e buscando mediar todos os tipos de debates com argumentos coerentes. É um verdadeiro orgulho poder recomendá-lo como profissional e, acima de tudo, como pessoa.");
-            $("#txt51").text("Sócio Diretor da Soft4it Consultoria de Informática | Consultor de SAP Sênior | Módulo SD");
-            $("#txt52").text("É com grande prazer que escrevo esta recomendação para Leonardo, um profissional de tecnologia da informação altamente dedicado e estudioso. Com base na minha interação com ele e na sua reputação no setor de tecnologia da informação, não hesito em recomendá-lo como um valioso ativo para qualquer equipe ou projeto relacionado à área de desenvolvimento de software.");
+            $("#txt51").text("Gerente de TI | Gestor de TI | Líder em Transformação Digital | Gestão de Dados e Governança | Estratégia de TI | Inteligência de Negócios | Análise de Dados");
+            $("#txt52").text("Tive o prazer de trabalhar com Leo como estagiário de transformação digital por quase dois anos. Seu compromisso com o aprendizado, capacidade de resolução de problemas e habilidade de colaborar com o time tiveram um impacto significativo em nossos projetos e iniciativas. Durante esse tempo, Leo demonstrou consistentemente sua proficiência em todo o ciclo de desenvolvimento de software, e seu empenho em enfrentar desafios não passou despercebido. Realmente aprecio as ideias inovadoras que Leo traz à mesa e sua disposição em ajudar outros. Leo, obrigado pelo seu trabalho árduo, profissionalismo e atitude positiva. Desejo-lhe o melhor em seus futuros empreendimentos e tenho confiança de que você será excelente em sua carreira. Continue assim e voe alto!");
 
             //section "contact"
             $("#txt53").text("Me contate");
@@ -232,12 +232,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "testimonials"
             $("#txt46").text("Referencias");
-            $("#txt47").text("Ingeniero de Pegasystems en Accenture | PCSA | PCBA");
+            $("#txt47").text("Data Science | ML Engineering | Python, PEGA, AI");
             $("#txt48").text("He estado estudiando junto con Leonardo desde el primer año de la escuela secundaria. Ambos fuimos monitores voluntarios y nos encontrábamos entre los mejores estudiantes destacados del 5% de la escuela secundaria, y ahora con orgullo formamos parte de la misma universidad. Leonardo es, sin lugar a dudas, un estudiante extremadamente dedicado, brillante y compasivo. Aprende rápidamente y piensa lógicamente, siempre buscando oportunidades frescas para su carrera y utilizando las lecciones aprendidas de sus errores pasados para superar los problemas actuales.");
             $("#txt49").text("Profesora y coordinadora del curso de Análisis y Desarrollo de Sistemas en SENAI");
             $("#txt50").text("Leo era un estudiante muy amable y dedicado, tanto con sus compañeros como con sus profesores. Era responsable en sus tareas y profundamente comprometido y proactivo. Es una persona muy culta e inteligente, reflexionando sobre los problemas propuestos y buscando mediar todo tipo de debates con argumentos coherentes. Es un verdadero orgullo poder recomendarlo como profesional y, sobre todo, como persona.");
-            $("#txt51").text("Socio Director en Soft4it Consultoría de Informática | Consultor Senior de SAP | Módulo SD");
-            $("#txt52").text("Es un gran placer escribir esta recomendación para Leonardo, un profesional de tecnología de la información altamente dedicado y estudioso. Basándome en mi interacción con él y en su reputación en el sector de tecnología de la información, no dudo en recomendarlo como un activo valioso para cualquier equipo o proyecto relacionado con el desarrollo de software.");
+            $("#txt51").text("Jefe de TI | Gestor de TI | Líder en Transformación Digital | Gestión de Datos y Gobernanza | Estrategia de TI | Inteligencia de Negócios | Análisis de Datos");
+            $("#txt52").text("Fue un placer trabajar con Leo como interno de transformación digital durante casi dos años. Su compromiso con el aprendizaje, capacidad de resolución de problemas y habilidad para colaborar con el equipo tuvieron un impacto significativo en nuestros proyectos e iniciativas. Durante este tiempo, Leo demostró consistentemente su competencia en todo el ciclo de desarrollo de software, y su disposición para asumir desafíos no pasó desapercibida. Realmente aprecio las ideas innovadoras que Leo aporta y su disposición para ayudar a otros. Leo, gracias por tu arduo trabajo, profesionalismo y actitud positiva. Te deseo lo mejor en tus futuros empleos y tengo confianza en que brillarás en tu carrera. ¡Sigue adelante y vuela alto!");
 
             //section "contact"
             $("#txt53").text("Contáctame");
@@ -358,12 +358,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "testimonials"
             $("#txt46").text("References");
-            $("#txt47").text("Pegasystems Developer At Accenture | PCSA | PCBA");
+            $("#txt47").text("Data Science | ML Engineering | Python, PEGA, AI");
             $("#txt48").text("I've been studying along with Leonardo since freshman's year in HS. We both were former volunteer monitors and among HS top 5% outstanding students and now are proudly part of the same university. Leonardo is, without any doubt, a strongly dedicated, brilliant, compassionate student. He takes full note from his past mistakes and create strategies to overcome his current issues based on that information. A born quick learner and logic thinker, he aims for a fresh opportunity for his career.");
             $("#txt49").text("Professor And Coordinator Of The Systems Analysis And Development Course At SENAI");
             $("#txt50").text("Leo was a very kind and dedicated student, both towards his peers and teachers. He was responsible in his tasks and deeply committed and proactive. He is a very cultured and intelligent person, reflecting on proposed issues and seeking to mediate all kinds of debates with coherent arguments.<br> It is a true pride to be able to recommend him as a professional and, above all, as a person.");
-            $("#txt51").text("Managing Partner at Soft4it IT Consulting | Senior SAP Consultant | SD Module");
-            $("#txt52").text("It is with great pleasure that I write this recommendation for Leonardo, a highly dedicated and studious information technology professional. Based on my interactions with him and his reputation in the information technology sector, I do not hesitate to recommend him as a valuable asset to any team or project related to software development.");
+            $("#txt51").text("IT Head | IT Manager | Digital Transformation Leader | Data Management & Governance | IT Strategy | Business Intelligence | Data Analytics");
+            $("#txt52").text("I have worked with Leo as digital transformation intern for almost two years. His commitment to learning, problem-solving, and ability to collaborate with the team have significantly impacted our projects and initiatives. During this time, Leo has consistently demonstrated his proficiency in the whole software development cycle, and his eagerness to take on challenges have not gone unnoticed. I really appreciate the innovative ideas brought by him to the table and his willingness to assist others. Leo, thank you for your hard work, professionalism, and positive attitude. I wish you all the best in your future endeavors and I am confident that you will excel in your career. Keep going and fly high!");
 
             //section "contact"
             $("#txt53").text("Contact Me");
