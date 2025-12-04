@@ -12,4 +12,18 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+
+    const certificatesSwiper = new Swiper('.js-certificates-slider', {
+        grabCursor: true,
+        spaceBetween: `15vh`,
+        pagination: {
+            el: '.js-certificates-pagination',
+            clickable: true
+        },
+        breakpoints: {
+            '110': {
+                slidesPerView: 1
+            }
+        }
+    });
 });

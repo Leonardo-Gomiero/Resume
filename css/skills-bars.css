@@ -41,33 +41,33 @@
   flex: 1;
 }
 
-.html {
-  width: 70%;
+.csharp {
+  width: 85%;
   animation: html 3s;
 }
 
-.css {
-  width: 60%;
-  animation: html 3s;
-}
-
-.js {
-  width: 70%;
-  animation: html 3s;
-}
-
-.java {
+.react {
   width: 80%;
   animation: html 3s;
 }
 
-.aws {
-  width: 60%;
+.cloud-computing {
+  width: 80%;
   animation: html 3s;
 }
 
-.data-an {
-  width: 70%;
+.devops {
+  width: 75%;
+  animation: html 3s;
+}
+
+.software-arch {
+  width: 90%;
+  animation: html 3s;
+}
+
+.observability {
+  width: 65%;
   animation: html 3s;
 }
 

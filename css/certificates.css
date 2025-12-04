@@ -1,232 +1,192 @@
-.card {
-    position: relative;
-    height: 37vh;
+/* Certificates Container */
+.cert-container {
     width: 100%;
-    margin: 0 auto 3vh auto;
-    background-color: white;
-    border-radius: 2.5vh;
-    box-shadow: 1vh 0 5vh rgba(0, 0, 0, 0.5);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2vh;
 }
 
-.card .inner_part {
+.cert-header {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.cert-header .title {
+    font-size: 4vh;
+    font-weight: 700;
+    color: #0d0925;
+}
+
+.certificates-content {
+    position: relative;
+    width: 100%;
+}
+
+/* Swiper Carousel Styles */
+.certificates-slider {
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.swiper-wrapper {
     display: flex;
+}
+
+.certificates-item {
+    display: flex !important;
     align-items: center;
     justify-content: center;
-    padding-left: 6vh;
-    height: 35vh;
-    position: absolute;
 }
 
-#slideImg:checked ~ .inner_part {
-    padding: 0;
-    transition: .1s ease-in;
+.cert-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2.5vh;
+    /* box-shadow: 1vh 0 5vh rgba(0, 0, 0, 0.5); */
+    padding: 3vh;
+    gap: 3vh;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.inner_part .img {
-    height: 27vh;
-    width: 27vh;
-    overflow: hidden;
+.cert-card img {
+    height: 25vh;
+    width: 25vh;
+    object-fit: contain;
     flex-shrink: 0;
     border-radius: 2vh;
-    box-shadow: 0 1vh 5vh rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 1vh 5vh rgba(0, 0, 0, 0.2); */
 }
 
-#slideImg:checked ~ .inner_part .img {
-    height: 35vh;
-    width: 85vh;
-    z-index: 99;
-    transition: .3s .2s ease-in;
+.cert-text-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 
-.img img {
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    opacity: 0;
-    transition: .6s;
-}
-
-#slide_1:checked ~ .inner_part .img_1,
-#slide_2:checked ~ .inner_part .img_2,
-#slide_3:checked ~ .inner_part .img_3,
-#slide_4:checked ~ .inner_part .img_4,
-#slide_5:checked ~ .inner_part .img_5 {
-    opacity: 1;
-    transition-delay: .2s;
-}
-
-.content {
-    padding: 0 2vh 0 3.5vh;
-    width: 100%;
-    margin-left: 5vh;
-    opacity: 0;
-    transition: .6s;
-}
-
-#slideImg:checked ~ .inner_part .content {
-    display: none;
-}
-
-#slide_1:checked ~ .inner_part .content_1,
-#slide_2:checked ~ .inner_part .content_2,
-#slide_3:checked ~ .inner_part .content_3,
-#slide_4:checked ~ .inner_part .content_4,
-#slide_5:checked ~ .inner_part .content_5 {
-    opacity: 1;
-    margin-left: 0;
-    z-index: 100;
-    transition-delay: .3s;
-}
-
-.content .title-certificate {
+.cert-title {
     font-size: 3vh;
     font-weight: 700;
     color: #0d0925;
     text-align: left;
+    margin: 0;
 }
 
-.content .text {
+.cert-description {
     font-size: 2vh;
     color: #4e4a67;
-    margin: 0 auto 3vh auto;
     line-height: 1.5em;
     text-align: left;
+    margin: 0;
 }
 
-.content button{
+.cert-text-box button {
     padding: 1.5vh 2vh;
     border: none;
     font-size: 1.6vh;
-    color: #fff0e6;
+    color: white;
     font-weight: 600;
     letter-spacing: 0.1vw;
     border-radius: 5vh;
     cursor: pointer;
     outline: none;
     background-color: #00BFCC;
-    float: left;
+    align-self: flex-start;
+    transition: all 0.3s ease;
 }
 
-.content button:hover {
+.cert-text-box button:hover {
     background: #cecece;
     color: #00BFCC;
 }
 
-.content button a {
+.cert-text-box button a {
     color: white;
+    text-decoration: none;
 }
 
-.slider {
-    position: absolute;
-    bottom: 1vh;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+.cert-text-box button:hover a {
+    color: #00BFCC;
 }
 
-#slideImg:checked ~ .slider {
-    display: none;
+/* Swiper Pagination */
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
 }
 
-.slider .slide {
-    position: relative;
-    height: 1vh;
-    width: 5vh;
-    background: #d9d9d9;
-    border-radius: 0.5vh;
-    display: inline-flex;
-    margin: 0 0.3vh;
-    cursor: pointer;
+.swiper-pagination-bullet {
+    background-color: #d9d9d9;
+    opacity: 1;
+    width: 1.2vh;
+    height: 1.2vh;
+    margin: 0 0.5vh;
+    transition: background-color 0.3s;
 }
 
-.slider .slide::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: -100%;
-    background: #00BFCC;
-    border-radius: 1vh;
-    transform: scaleX(0);
-    transition: transform .6s;
-    transform-origin: left;
-}
-
-#slide_1:checked ~ .slider .slide_1:before,
-#slide_2:checked ~ .slider .slide_2:before,
-#slide_3:checked ~ .slider .slide_3:before,
-#slide_4:checked ~ .slider .slide_4:before,
-#slide_5:checked ~ .slider .slide_5:before {
-    transform: scaleX(1);
-    width: 100%;
-}
-
-.certificates input {
-    display: none;
+.swiper-pagination-bullet-active {
+    background-color: #00BFCC;
 }
 
 
 
 @media (max-width: 110vh) {
-    
-    .content .text {
-        font-size: 2vw;
+    .cert-card {
+        flex-direction: column;
+        padding: 2vh;
+        gap: 2vh;
     }
 
-    .certificates .card{
-        width: 100%;
-    }
-    
-    .certificates .img {
-        width: 30vw;
-        height: 30vw;
+    .cert-card img {
+        height: 20vh;
+        width: 20vh;
     }
 
-    .certificates .content {
-        width: fit-content;
+    .cert-title {
+        font-size: 2.5vh;
     }
 
-    .card .inner_part {
-        padding-left: 2vh;
+    .cert-description {
+        font-size: 1.8vh;
+    }
+
+    .swiper-pagination {
+        margin-top: 3vh;
     }
 }
 
 @media (max-width: 73vh) {
-    
-    .content .text {
-        font-size: 3vw;
-    }
-    
-    .card {
-        height: 100vw;
-    }
-
-    .card .inner_part {
+    .cert-card {
         flex-direction: column;
-        margin: 3vh auto 0 auto;
-        height: auto;
-        padding: 0;
+        padding: 2vh;
+        gap: 1.5vh;
     }
 
-    .certificates .content {
-        width: 90%;
-        margin-top: 2vh;
-        padding: 0;
+    .cert-card img {
+        height: 18vh;
+        width: 18vh;
     }
 
-    .content button {
-        width: 65%;
-        margin: 0 17.5%;
+    .cert-title {
+        font-size: 2.2vh;
     }
 
-    .certificates .text {
-        margin: 1vh 0;
-        text-align: justify;
+    .cert-description {
+        font-size: 1.6vh;
     }
 
-    .slider {
-        width: 55%;
-        align-items: center;
+    .cert-text-box button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cert-header .title {
+        font-size: 3vh;
     }
 }
