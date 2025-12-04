@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Baixar CV");
-            document.getElementById('txt7').href = './assets/Curriculo - Leonardo Gomiero C Capoccia.pdf';
+            document.getElementById('txt7').href = './assets/resumes/Curriculo - Leonardo Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("Olá, Mundo! Meu nome é Leonardo Capoccia, e sou desenvolvedor de software web. Estou trabalhando nessa área há dois anos, ganhando experiência em várias empresas onde pude aprimorar minhas habilidades técnicas em ReactJS, NodeJS, Computação em Nuvem, Análise de Dados e mais. No meu papel, aprendi a traduzir as necessidades dos clientes em soluções de software, focando no feedback periódico e prestando muita atenção aos detalhes.");
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Descargar CV");
-            document.getElementById('txt7').href = './assets/Resume - Leonardo Gomiero C Capoccia.pdf';
+            document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("¡Hola, Mundo! Mi nombre es Leonardo Capoccia, y soy desarrollador de software web. He estado trabajando en este campo durante dos años, ganando experiencia en varias empresas donde pude mejorar mis habilidades técnicas en ReactJS, NodeJS, Computación en la Nube, Análisis de Datos y más. En mi rol, he aprendido a traducir las necesidades de los clientes en soluciones de software, enfocándome en la retroalimentación periódica y prestando mucha atención a los detalles.");
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "download-cv"
             $("#txt7").text("Download CV");
-            document.getElementById('txt7').href = './assets/Resume - Leonardo Gomiero C Capoccia.pdf';
+            document.getElementById('txt7').href = './assets/resumes/Resume - Leonardo Capoccia.pdf';
 
             //id "introducing"
             $("#introducing").text("Hello, World! My name is Leonardo Capoccia, and I am a web software developer. I have been working in this field for two years, gaining experience in various companies where I could enhance my technical skills in ReactJS, NodeJS, Cloud Computing, Data Analysis and more. In my role, I've learned to translate client needs into software solutions, focusing on periodic feedback and paying close attention to detail.");
