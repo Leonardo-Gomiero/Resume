@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "skills-bar"
             $("#txt10").text("Habilidades Profissionais");
-            $("#txt11").text("Análise de Dados");
+            $("#txt12-arch").text("Arquitetura de Software");
+            $("#txt11").text("Observabilidade & Monitoramento");
 
             //section "project"
             $("#txt12").text("Um Projeto em Java Puro");
@@ -178,7 +179,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "skills-bar"
             $("#txt10").text("Habilidades Profesionales");
-            $("#txt11").text("Análisis de Datos");
+            $("#txt12-arch").text("Arquitectura de Software");
+            $("#txt11").text("Observabilidad y Monitoreo");
 
             //section "project"
             $("#txt12").text("Un Proyecto en Java Puro");
@@ -301,7 +303,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //section "skills-bar"
             $("#txt10").text("Professional Skills");
-            $("#txt11").text("Data Analysis");
+            $("#txt12-arch").text("Software Architecture");
+            $("#txt11").text("Observability & Monitoring");
 
             //section "project"
             $("#txt12").text("A Pure Java Project");
