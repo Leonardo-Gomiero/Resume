@@ -1,6 +1,5 @@
 /* Certificates Container */
 .cert-container {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2vh;
@@ -44,7 +43,6 @@
     justify-content: space-between;
     background-color: white;
     border-radius: 2.5vh;
-    /* box-shadow: 1vh 0 5vh rgba(0, 0, 0, 0.5); */
     padding: 3vh;
     gap: 3vh;
     width: 100%;
@@ -58,7 +56,6 @@
     object-fit: contain;
     flex-shrink: 0;
     border-radius: 2vh;
-    /* box-shadow: 0 1vh 5vh rgba(0, 0, 0, 0.2); */
 }
 
 .cert-text-box {
