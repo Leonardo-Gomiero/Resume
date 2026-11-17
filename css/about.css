@@ -1,15 +1,34 @@
 .about {
-  background-color: white;
+  background: linear-gradient(135deg, #0d1526 0%, #131929 100%);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -15%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(0,191,204,0.07) 0%, transparent 65%);
+  pointer-events: none;
 }
 
 .about hr {
-  border-color: black;
-  background-color: black;
+  border: none;
+  border-top: 1px solid var(--border-accent);
+  opacity: 0.5;
+  margin: 1.5vh 0;
 }
 
 .about img {
   width: 50%;
   margin: 0 3vw 0 0;
+  border-radius: 12px;
+  filter: brightness(0.95) contrast(1.05);
 }
 
 .about-text {
@@ -18,12 +37,14 @@
 }
 
 .under-text {
-  background-color: #3D4451;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid var(--border-subtle);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 1.5vh 0;
 }
 
 .main {
@@ -31,11 +52,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 3vh 6vw 3vh 6vw;
+  padding: 3vh 6vw;
 }
 
 .image-small {
   width: 5%;
+  border-radius: 3px;
 }
 
 .title-lang {
@@ -44,33 +66,40 @@
 }
 
 .title-lang h3 {
-  padding-left: 2vh;
+  padding-left: 1.5vh;
+  color: var(--text-primary);
+  font-weight: 500;
 }
 
 .about-text h2 {
   font-size: 5vh;
   text-transform: capitalize;
   margin: 0;
+  color: var(--text-primary);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .thin {
-  color: black;
-  font-size: 6vh;
+  color: var(--text-secondary);
+  font-size: 5.5vh;
   text-transform: capitalize;
   margin: 0;
   font-weight: 100;
 }
 
 .about-text h5 {
-  letter-spacing: 0.3vh;
-  font-size: 2.6vh;
-  margin: 0;
-  text-transform: capitalize;
+  letter-spacing: 0.15em;
+  font-size: 2.4vh;
+  margin: 0.5vh 0;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
 }
 
 .about-text p {
-  color: black;
-  letter-spacing: 0.2vh;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
   line-height: 2vh;
   font-size: 2vh;
 }
@@ -84,36 +113,44 @@
 
 .socials a {
   text-decoration: none;
-  color: #fff;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
 }
 
-.socials a:hover {
-  text-decoration: none;
-  color: #00BFCC;
-}
+.socials a:hover { color: var(--accent); }
 
 .socials a i {
-  font-size: 1.1rem;
-  transition: color 0.4s ease;
+  font-size: 1.3rem;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
+
+.socials a:hover i { transform: translateY(-3px); }
 
 .list-group li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8vh 0 0.8vh;
+  padding: 0.9vh 0;
   font-size: 13px;
+  border-bottom: 1px solid var(--border-subtle);
 }
 
+.list-group li:last-child { border-bottom: none; }
+
 .list-group h5 {
-  font-size: 13px;
+  font-size: 10px;
   margin: 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  font-weight: 700;
 }
 
 .about .badge {
-  color: black;
+  color: var(--text-secondary);
   text-align: right;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 @media (max-width: 110vh) {
@@ -122,44 +159,28 @@
     flex-direction: column;
   }
 
-  .about-text {
-    width: 90%;
+  .about img {
+    width: 70%;
+    margin: 0 0 3vh 0;
   }
 
-  .about .list-group {
-    width: 100%;
-  }
+  .about-text { width: 90%; }
 
-  .about-text h2 {
-    font-size: 6.7vw;
-  }
+  .about .list-group { width: 100%; }
 
-  .about-text h5 {
-    font-size: 3vw;
-  }
+  .about-text h2 { font-size: 6.7vw; }
 
-  .about-text li {
-    font-size: 1.5vh;
-  }
+  .about-text h5 { font-size: 3vw; }
 
-  .about-text .badge {
-    font-size: 3vw;
-  }
+  .about-text li { font-size: 1.5vh; }
 
-  main.row {
-    grid-template-columns: 1fr;
-  }
+  .about-text .badge { font-size: 3vw; }
 
-  .about .row .col:nth-child(2) {
-    margin-top: 30%;
-  }
+  main.row { grid-template-columns: 1fr; }
 
-  .under-text li {
-    margin: 0 4vw 0 4vw;
-  }
+  .about .row .col:nth-child(2) { margin-top: 30%; }
 
-  .under-text i {
-    height: 5vw;
-  }
+  .under-text li { margin: 0 4vw; }
 
+  .under-text i { height: 5vw; }
 }

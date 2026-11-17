@@ -6,20 +6,17 @@
 .logos {
   overflow: hidden;
   padding: 3vh 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
   white-space: nowrap;
   position: relative;
   width: 100vw;
-
 }
 
 @keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
 }
 
 .logos:before,
@@ -34,12 +31,12 @@
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+  background: linear-gradient(to left, rgba(17, 24, 39, 0), var(--bg-secondary));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+  background: linear-gradient(to right, rgba(17, 24, 39, 0), var(--bg-secondary));
 }
 
 .logos:hover .logos-slide {
@@ -54,4 +51,12 @@
 .logos-slide img {
   height: 14vh;
   margin: 0 4vh;
+  opacity: 0.75;
+  filter: brightness(1.1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.logos-slide img:hover {
+  opacity: 1;
+  transform: scale(1.08) translateY(-3px);
 }

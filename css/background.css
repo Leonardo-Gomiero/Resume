@@ -2,77 +2,107 @@ main.row {
   display: flex;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2vh;
+  gap: 3vh;
 }
 
 .background h2 {
-  color: white;
+  color: #fff;
+  margin: 0;
+}
+
+.col {
+  flex: 1;
 }
 
 .col header.title {
-  padding: 2vh;
-  background-color: #24252a;
+  padding: 1.6vh 2.5vh;
+  background: var(--accent-gradient);
+  border-radius: 10px 10px 0 0;
+}
+
+.col header.title h2 {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 2.2vh;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .col .contents {
   padding: 0 3vh;
-  border-left: 0.4vh solid #bababa;
+  border-left: 2px solid var(--border-accent);
 }
 
 .col .contents .box {
   position: relative;
-  padding: 2vh;
-  border: 0.1vh solid #eaeaea;
-  background-color: #fff;
+  padding: 2vh 2.5vh;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.3s ease;
   margin-bottom: 2vh;
+  border-radius: 0 10px 10px 0;
 }
 
 .col .contents .box:hover {
-  box-shadow: 0 0.3vh 1.2vh 0 #ccc;
-  border: 0.1vh solid transparent;
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--border-accent);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
 }
 
 .col .contents .box::before {
   content: "";
   position: absolute;
-  width: 1.6vh;
-  height: 1.6vh;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  right: calc(100% + 2.2vh);
-  top: 0;
-  background-color: #00BFCC;
-  border: 0.3vh solid white;
+  right: calc(100% + 2.5vh);
+  top: 1.6vh;
+  background: var(--accent-gradient);
+  box-shadow: 0 0 10px var(--accent);
+  border: 2px solid var(--bg-primary);
 }
 
 .box h4 {
   position: relative;
-  color: #00BFCC;
+  color: var(--accent);
+  font-size: 1.2vh;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0.6vh 0;
 }
 
 .box h5 {
   font-size: 1.5vh;
-  font-family: helvetica;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 1vh;
+  color: var(--text-secondary);
 }
 
 .box h3 {
-  font-size: 2.4vh;
-  padding: 1vh 0 0.6vh;
-  font-family: helvetica;
+  font-size: 2.2vh;
+  padding: 0 0 0.6vh;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin: 0;
 }
 
 .box p {
-  line-height: 1.2;
-  color: #666;
+  line-height: 1.5;
+  color: var(--text-secondary);
   font-size: 1.8vh;
+  margin: 0;
+  font-weight: 400;
 }
 
 @media (max-width: 110vh) {
   .row {
     flex-direction: column;
   }
-  
+
   .col {
     border: 0;
     margin-top: 0;
