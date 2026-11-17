@@ -12,9 +12,15 @@ function calculateAge() {
     document.getElementById('age').textContent = age;
 }
 
+function updateCopyrightYear() {
+    const el = document.getElementById('copyright-year');
+    if (el) el.textContent = new Date().getFullYear();
+}
+
 // Call on page load
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', calculateAge);
+    document.addEventListener('DOMContentLoaded', () => { calculateAge(); updateCopyrightYear(); });
 } else {
     calculateAge();
+    updateCopyrightYear();
 }

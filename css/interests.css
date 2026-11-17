@@ -1,21 +1,42 @@
 .interests .text-section {
   text-align: justify;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 4vh 5vh;
+}
+
+.interests .text-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
 }
 
 .icons {
   text-align: center;
   margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2vh;
 }
 
 .icon {
-  padding: 2%;
+  padding: 10px;
   height: 3.5vw;
-  margin: 0 1vh 0 1vh;
-  border: 0.2vh solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon img {
-  border: 50%;
+.icon:hover {
+  border-color: var(--border-accent);
+  background: var(--bg-card-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 12px var(--accent-glow);
 }
 
 a {
@@ -28,16 +49,21 @@ a:hover {
 
 a[data]:hover:after {
   content: attr(data);
-  padding: 0.4vh 0.4vw;
-  color: rgba(255, 255, 255, 1);
+  padding: 0.5vh 1.2vw;
+  color: rgba(255, 255, 255, 0.95);
   position: absolute;
-  left: 0;
-  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 108%;
   white-space: nowrap;
-  z-index: 2;
-  border-radius: 0.5vh;
-  background: rgba(0,0,0,0.5);
-  width: 100%;
+  z-index: 10;
+  border-radius: 6px;
+  background: rgba(0, 191, 204, 0.85);
+  font-size: 1.3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(4px);
 }
 
 @media (max-width: 110vh) {
@@ -51,7 +77,5 @@ a[data]:hover:after {
     margin: 5%;
   }
 
-  .icon {
-    height: 6vw;
-  }
+  .icon { height: 8vw; }
 }
